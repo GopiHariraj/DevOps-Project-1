@@ -223,6 +223,14 @@ gopinath@gopinath:~$ locate -i school*note
 gopinath@gopinath:~$ find /home -name sqlite_command.sh 
 /home/gopinath/sqlite_command.sh
 
+14) grep command
+
+gopinath@gopinath:~$ grep sqlite_command.sh 
+
+15) du command
+
+
+
 
 
 
