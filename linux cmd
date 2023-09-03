@@ -685,14 +685,59 @@ project1
 gopinath@gopinath:~$ hostname
 gopinath
 
+34)adduser deluser command
+
+gopinath@gopinath:~$ sudo useradd Linuxuser2
  
+gopinath@gopinath:~$ sudo userdel Linuxuser1
+password update
+gopinath@gopinath:~$ sudo passwd Linuxuser2
+New password: 
+Retype new password: 
+passwd: password updated successfully
+
+35)apt-get command
+#gopinath@gopinath:~$ sudo apt-get update -y
+Get:1 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Hit:2 http://ae.archive.ubuntu.com/ubuntu focal InRelease
+Get:3 http://ae.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Get:4 http://security.ubuntu.com/ubuntu focal-security/main amd64 DEP-11 Metadata [59.9 kB]
+Get:5 http://security.ubuntu.com/ubuntu focal-security/universe amd64 DEP-11 Metadata [96.5 kB]
+Get:6 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 DEP-11 Metadata [940 B]
+Get:7 http://ae.archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+Get:8 http://ae.archive.ubuntu.com/ubuntu focal-updates/main amd64 DEP-11 Metadata [275 kB]
+Get:9 http://ae.archive.ubuntu.com/ubuntu focal-updates/universe amd64 DEP-11 Metadata [410 kB]
+Get:10 http://ae.archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 DEP-11 Metadata [944 B]
+Get:11 http://ae.archive.ubuntu.com/ubuntu focal-backports/main amd64 DEP-11 Metadata [8,008 B]
+Get:12 http://ae.archive.ubuntu.com/ubuntu focal-backports/universe amd64 DEP-11 Metadata [30.5 kB]
+Fetched 1,218 kB in 6s (216 kB/s)                                           
+Reading package lists... Done
 
 
 
 
+36)Nano,vi command
+
+
+gopinath@gopinath:~$ nano firstfile1.txt
+gopinath@gopinath:~$ vi secondfile2.sh
+gopinath@gopinath:~$ nano firstfile1.txt
+gopinath@gopinath:~$ cat firstfile1.txt 
+first file project1
+gopinath@gopinath:~$ cat secondfile2.sh 
+test
+
+37)alias,unalias command
 
 
 
+38) Su command
+
+gopinath@gopinath:~$ sudo su Linuxuser2
+$ whoami
+Linuxuser2
+
+39)
 
 
 
