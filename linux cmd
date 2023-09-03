@@ -80,7 +80,13 @@ drwxrwxr-x 2 gopinath gopinath 4.0K سبت  3 16:03 Unix_Command
 drwxr-xr-x 2 gopinath gopinath 4.0K سبت  3 15:44 Videos
 
 
-5)cat sqlite_commands.sh
+5)cat command
+
+gopinath@gopinath:~$ cat sqlite_commands.sh
+#!/bin/bash
+
+echo "project1"
+
 
 
 
