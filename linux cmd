@@ -375,7 +375,7 @@ Document_Backup  Linux_command  Postgras.yml  Public             Templates
 Documents        Music          project1.tar  sqlite_command.sh  Unix_Command
 
 
-21)chmod
+21)chmod command
 
 gopinath@gopinath:~$ ls -ltr
 total 126788
@@ -415,9 +415,105 @@ drwxrwxr-x 2 gopinath gopinath      4096 سبت  3 16:51 Linux_command
 -rwxrwxrwx 1 gopinath gopinath       318 سبت  3 18:09 Postgras.yml
 -rw-rw-r-- 1 gopinath gopinath 129771520 سبت  3 18:12 project1.tar
 
+22)chown command
 
-22)
 
+23)Jobs jobID
+
+
+
+
+24)ps ux Command
+gopinath@gopinath:~$ ps ux
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+gopinath    4384  0.0  0.5  19740 10412 ?        Ss   20:47   0:00 /lib/systemd/
+gopinath    4385  0.0  0.1 169660  3580 ?        S    20:47   0:00 (sd-pam)
+gopinath    4390  0.1  0.9 1491592 20100 ?       S<sl 20:47   0:00 /usr/bin/puls
+gopinath    4394  0.0  0.3 248796  7808 ?        Sl   20:47   0:00 /usr/bin/gnom
+gopinath    4397  0.0  1.2 520004 24140 ?        SNsl 20:47   0:00 /usr/libexec/
+gopinath    4399  0.0  0.3  10316  7564 ?        Ss   20:47   0:00 /usr/bin/dbus
+gopinath    4403  0.0  0.3 248448  7800 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4408  0.0  0.4 382064  8432 ?        Sl   20:47   0:00 /usr/libexec/
+gopinath    4422  0.0  0.5 326076 11404 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4432  0.0  0.2 244512  6000 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4437  0.0  1.7 558232 34564 ?        Sl   20:47   0:00 /usr/libexec/
+gopinath    4440  0.0  0.3 172652  6664 tty2     Ssl+ 20:47   0:00 /usr/lib/gdm3
+gopinath    4442  0.7  3.8 269124 77152 tty2     Sl+  20:47   0:03 /usr/lib/xorg
+gopinath    4449  0.0  0.5 401044 11388 ?        Sl   20:47   0:00 /usr/libexec/
+gopinath    4451  0.0  0.3 246616  6856 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4458  0.0  0.3 244340  6280 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4465  0.0  0.4 325360  9004 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4487  0.0  0.7 199432 15248 tty2     Sl+  20:47   0:00 /usr/libexec/
+gopinath    4554  0.0  0.0   6040   452 ?        Ss   20:47   0:00 /usr/bin/ssh-
+gopinath    4573  0.0  0.4 383540  9592 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4579  0.0  0.2   7244  4260 ?        S    20:47   0:00 /usr/bin/dbus
+gopinath    4586  0.0  0.2  98696  4380 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4593  0.0  0.8 495104 17124 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4607  1.3 18.0 3722248 362656 ?      Ssl  20:47   0:06 /usr/bin/gnom
+gopinath    4626  0.0  0.5 323340 10324 ?        Sl   20:47   0:00 ibus-daemon -
+gopinath    4630  0.0  0.4 175192  8968 ?        Sl   20:47   0:00 /usr/libexec/
+gopinath    4631  0.1  1.6 286732 33396 ?        Sl   20:47   0:00 /usr/libexec/
+gopinath    4634  0.0  1.4 209048 30088 ?        Sl   20:47   0:00 /usr/libexec/
+gopinath    4636  0.0  0.4 248992  9384 ?        Sl   20:47   0:00 /usr/libexec/
+gopinath    4647  0.0  0.3 162908  6488 ?        Sl   20:47   0:00 /usr/libexec/
+gopinath    4651  0.0  0.2 244232  4808 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4656  0.0  1.0 581628 20220 ?        Sl   20:47   0:00 /usr/libexec/
+gopinath    4662  0.0  1.2 472808 25940 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4670  0.0  1.4 716368 29976 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4680  0.0  0.2 156100  5532 ?        Sl   20:47   0:00 /usr/libexec/
+gopinath    4684  0.0  1.4 690276 29120 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4703  0.0  0.5 326184 10660 ?        Sl   20:47   0:00 /usr/libexec/
+gopinath    4710  0.0  1.3 2607408 26448 ?       Sl   20:47   0:00 /usr/bin/gjs 
+gopinath    4722  0.0  0.4 322560  9132 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4723  0.0  1.5 578992 30968 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4724  0.0  0.8 382996 17208 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4725  0.0  0.4 322792  9200 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4726  0.0  1.5 356968 30460 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4727  0.0  1.6 912172 32864 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4728  0.0  1.5 357404 31060 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4729  0.0  0.5 256856 11232 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4730  0.0  0.2 465736  5952 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4731  0.0  0.2 244144  5844 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4732  0.0  0.6 477672 12380 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4733  0.0  0.5 326720 10628 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4734  0.0  0.5 330420 11144 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4735  0.0  0.4 396520  9364 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4736  0.0  1.4 356520 29800 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4737  0.0  0.5 326988 10340 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4738  0.0  1.5 357600 31240 ?        Ssl  20:47   0:00 /usr/libexec/
+gopinath    4767  0.0  0.2 231800  5532 ?        Sl   20:47   0:00 /usr/libexec/
+gopinath    4788  0.0  2.9 798384 59248 ?        Sl   20:47   0:00 /usr/libexec/
+gopinath    4817  0.0  0.7 350820 15048 ?        Sl   20:47   0:00 /usr/libexec/
+gopinath    4850  0.0  0.4 175184  8972 ?        Sl   20:47   0:00 /usr/libexec/
+gopinath    4919  0.0  0.3 170888  6252 ?        Ssl  20:48   0:00 /usr/libexec/
+gopinath    4922  0.0  1.6 505168 32940 ?        Sl   20:48   0:00 update-notifi
+gopinath    5059  0.4  2.5 823368 51420 ?        Ssl  20:51   0:01 /usr/libexec/
+gopinath    5067  0.0  0.2  19520  5088 pts/0    Ss   20:51   0:00 bash
+gopinath    5126  0.0  0.1  20132  3284 pts/0    R+   20:56   0:00 ps ux
+
+
+25) ping command
+
+gopinath@gopinath:~$ ping 8.8.8.8
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=63 time=18.1 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=63 time=14.4 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=63 time=30.3 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=63 time=15.8 ms
+
+26) wget command
+
+gopinath@gopinath:~$ wget www.google.com
+--2023-09-03 21:05:57--  http://www.google.com/
+Resolving www.google.com (www.google.com)... 216.239.38.120, 2001:4860:4802:32::78
+Connecting to www.google.com (www.google.com)|216.239.38.120|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html’
+
+index.html                             [ <=>                                                             ]  21.05K  --.-KB/s    in 0.01s   
+
+2023-09-03 21:05:58 (1.99 MB/s) - ‘index.html’ saved [21558]
 
 
 
