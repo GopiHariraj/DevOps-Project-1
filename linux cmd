@@ -515,6 +515,177 @@ index.html                             [ <=>                                    
 
 2023-09-03 21:05:58 (1.99 MB/s) - ‘index.html’ saved [21558]
 
+27)uname command
+
+gopinath@gopinath:~$ uname -a
+Linux gopinath 5.15.0-82-generic #91~20.04.1-Ubuntu SMP Fri Aug 18 16:24:39 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+gopinath@gopinath:~$ uname -s
+Linux
+gopinath@gopinath:~$ uname -n
+gopinath
+
+28)top command
+
+gopinath@gopinath:~$ top
+
+top - 21:09:20 up 36 min,  1 user,  load average: 0.13, 0.34, 0.30
+Tasks: 178 total,   1 running, 176 sleeping,   1 stopped,   0 zombie
+%Cpu(s):  1.0 us,  0.3 sy,  0.0 ni, 98.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   1964.1 total,    170.4 free,   1132.8 used,    660.9 buff/cache
+MiB Swap:   1162.4 total,   1159.7 free,      2.8 used.    633.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                              
+   4442 gopinath  20   0  341488 147144  89056 S   2.4   7.3   0:28.70 Xorg                                                                 
+   4607 gopinath  20   0 3740000 378932 145204 S   2.4  18.8   0:40.42 gnome-shell                                                          
+   5059 gopinath  20   0  824212  51924  38720 S   0.6   2.6   0:02.39 gnome-terminal-                                                      
+   5130 gopinath  20   0 3518232 362388 167152 S   0.6  18.0   0:33.60 firefox                                                              
+   5268 gopinath  20   0 2558192 188292  97144 S   0.6   9.4   0:16.59 Isolated Web Co                                                      
+   4382 root      20   0       0      0      0 I   0.3   0.0   0:02.47 kworker/0:3-events                                                   
+      1 root      20   0  168088  11084   8500 S   0.0   0.6   0:01.51 systemd                                                              
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd                                                             
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp                                                               
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par_gp                                                           
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 slub_flushwq                                                         
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns                                                                
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/0:0H-events_highpri                                          
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_percpu_wq                                                         
+     11 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tasks_rude_  
+
+29)history command
+
+gopinath@gopinath:~$ history
+    1  sudo useradd
+    2  useradd Linuxuser1
+    3  sudo useradd Linuxuser1
+    4  passwd pass4321
+    5  passwd Linuxuser1 pass4321
+    6  useradd Linuxuser1
+    7  passwd
+    8  login Linuxuser1
+    9  Linuxuser1
+   10  ls
+   11  sudo passed Linuxuser1
+   12  sudo passwd Linuxuser1
+   13  whoami
+   14  sudo Linuxuser
+   15  sudo Linuxuser1
+   16  sudo su Linuxuser1
+   17  chown Project_a Linuxuser1
+   18  ls
+   19  sudo chown Project_a Linuxuser1
+   20  sudo chown Linuxuser1 Project_A
+   21  sudo chown Linuxuser1 Project_a
+   22  sudo chown Linuxuser1 \home\gopinath\Project_a
+   23  ls
+   24  clear
+   25  man chown
+   26  ls
+   27  chown Linuxuser1 sql.yml
+   28  chown gopinath sql.yml
+   29  chown gopinath /home/gopinth/sql.yml
+   30  sudo chown gopinath /home/gopinth/sql.yml
+   31  sudo chown Linuxuser1 /home/gopinth/sql.yml
+   32  ps ux
+   33  clear
+   34  jobs jobID
+   35  jobs jobid
+   36  ping 8.8.8.8
+   37  wget www.google.com
+   38  unname -a
+   39  uname -a
+   40  uname -s
+   41  uname -n
+   42  top
+   43  clear
+   44  history
+
+30) man command
+
+#gopinath@gopinath:~$ man chown
+
+CHOWN(1)                                                      User Commands                                                     CHOWN(1)
+
+NAME
+       chown - change file owner and group
+
+SYNOPSIS
+       chown [OPTION]... [OWNER][:[GROUP]] FILE...
+       chown [OPTION]... --reference=RFILE FILE...
+
+DESCRIPTION
+       This  manual page documents the GNU version of chown.  chown changes the user and/or group ownership of each given file.  If only
+       an owner (a user name or numeric user ID) is given, that user is made the owner of each given file, and the files' group  is  not
+       changed.  If the owner is followed by a colon and a group name (or numeric group ID), with no spaces between them, the group own‐
+       ership of the files is changed as well.  If a colon but no group name follows the user name, that user is made the owner  of  the
+       files and the group of the files is changed to that user's login group.  If the colon and group are given, but the owner is omit‐
+       ted, only the group of the files is changed; in this case, chown performs the same function as chgrp.  If only a colon is  given,
+       or if the entire operand is empty, neither the owner nor the group is changed.
+
+OPTIONS
+       Change  the  owner and/or group of each FILE to OWNER and/or GROUP.  With --reference, change the owner and group of each FILE to
+       those of RFILE.
+
+       -c, --changes
+              like verbose but report only when a change is made
+
+       -f, --silent, --quiet
+              suppress most error messages
+
+       -v, --verbose
+              output a diagnostic for every file processed
+
+       --dereference
+              affect the referent of each symbolic link (this is the default), rather than the symbolic link itself
+
+       -h, --no-dereference
+              affect symbolic links instead of any referenced file (useful only on systems that can change the ownership of a symlink)
+
+       --from=CURRENT_OWNER:CURRENT_GROUP
+              change the owner and/or group of each file only if its current owner and/or group match those specified here.  Either  may
+              be omitted, in which case a match is not required for the omitted attribute
+
+       --no-preserve-root
+              do not treat '/' specially (the default)
+
+       --preserve-root
+              fail to operate recursively on '/'
+
+       --reference=RFILE
+              use RFILE's owner and group rather than specifying OWNER:GROUP values
+
+       -R, --recursive
+              operate on files and directories recursively
+
+       The  following  options modify how a hierarchy is traversed when the -R option is also specified.  If more than one is specified,
+       only the final one takes effect.
+
+       -H     if a command line argument is a symbolic link to a directory, traverse it
+
+       -L     traverse every symbolic link to a directory encountered
+
+       -P     do not traverse any symbolic links (default)
+
+       --help display this help and exit
+
+       --version
+              output version information and exit
+ Manual page chown(1) line 1 (press h for help or q to quit)
+
+
+31) echo command
+
+#gopinath@gopinath:~$ echo "project1"
+project1
+
+
+32) unzip command
+
+33)hostname command
+
+gopinath@gopinath:~$ hostname
+gopinath
+
+ 
 
 
 
