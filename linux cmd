@@ -737,7 +737,56 @@ gopinath@gopinath:~$ sudo su Linuxuser2
 $ whoami
 Linuxuser2
 
-39)
+39)htop command
+
+gopinath@gopinath:~$ htop
+
+Command 'htop' not found, but can be installed with:
+
+sudo snap install htop  # version 3.2.2, or
+sudo apt  install htop  # version 2.2.0-2build1
+
+See 'snap info htop' for additional versions.
+
+gopinath@gopinath:~$ sudo apt install htop
+[sudo] password for gopinath: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  chromium-codecs-ffmpeg-extra gstreamer1.0-vaapi
+  libgstreamer-plugins-bad1.0-0
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  htop
+0 upgraded, 1 newly installed, 0 to remove and 299 not upgraded.
+Need to get 80.5 kB of archives.
+After this operation, 225 kB of additional disk space will be used.
+Get:1 http://ae.archive.ubuntu.com/ubuntu focal/main amd64 htop amd64 2.2.0-2build1 [80.5 kB]
+Fetched 80.5 kB in 1s (63.2 kB/s)
+Selecting previously unselected package htop.
+(Reading database ... 185703 files and directories currently installed.)
+Preparing to unpack .../htop_2.2.0-2build1_amd64.deb ...
+Unpacking htop (2.2.0-2build1) ...
+Setting up htop (2.2.0-2build1) ...
+Processing triggers for desktop-file-utils (0.24-1ubuntu3) ...
+Processing triggers for mime-support (3.64ubuntu1) ...
+Processing triggers for gnome-menus (3.36.0-1ubuntu1) ...
+Processing triggers for man-db (2.9.1-1) ...
+gopinath@gopinath:~$ htop
+
+
+
+
+[1]+  Stopped                 htop
+
+40)ps command
+
+gopinath@gopinath:~$ ps
+    PID TTY          TIME CMD
+  11776 pts/0    00:00:00 bash
+  12506 pts/0    00:00:00 htop
+  12526 pts/0    00:00:00 ps
 
 
 
