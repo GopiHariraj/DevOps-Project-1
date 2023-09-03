@@ -127,6 +127,62 @@ Project b
 
 Test project b
 
+6) cp command'
+
+
+gopinath@gopinath:~$ cp sqlite_commands.sh /home/gopinath/Unix_Command/
+gopinath@gopinath:~$ cd Unix_Command/
+gopinath@gopinath:~/Unix_Command$ ls
+sqlite_commands.sh
+gopinath@gopinath:~/Unix_Command$ 
+
+gopinath@gopinath:~$ cp project_a.txt project_b.txt project_c.txt /home/gopinath/Documents/
+gopinath@gopinath:~$ cd Documents/
+gopinath@gopinath:~/Documents$ ls
+project_a.txt  project_b.txt  project_c.txt
+gopinath@gopinath:~/Documents$ 
+gopinath@gopinath:~/Documents$ cp project_a.txt project_b.txt
+gopinath@gopinath:~/Documents$ cp -R /home/gopinath/Do
+Documents/ Downloads/ 
+gopinath@gopinath:~/Documents$ cp -R /home/gopinath/Documents/ /home/gopinath/Document_Backup
+gopinath@gopinath:~/Documents$ ls
+project_a.txt  project_b.txt  project_c.txt
+gopinath@gopinath:~/Documents$ cd
+gopinath@gopinath:~$ ls
+Desktop  Document_Backup  Documents  Downloads  Linux_command  Music  Pictures  project_a  project_a.txt  project_b.txt  project_c.txt  Public  sqlite_commands.sh  Templates  Unix_Command  Videos
+
+gopinath@gopinath:~$ ls
+Desktop  Document_Backup  Documents  Downloads  Linux_command  Music  Pictures  project_a  project_a.txt  project_b.txt  project_c.txt  Public  sqlite_commands.sh  Templates  Unix_Command  Videos
+gopinath@gopinath:~$ cd Document_Backup/
+gopinath@gopinath:~/Document_Backup$ ls
+project_a.txt  project_b.txt  project_c.txt
+
+7)mv command
+
+gopinath@gopinath:~$ mv sqlite_commands.sh /home/gopinath/Linux_command/
+gopinath@gopinath:~$ ls
+Desktop  Document_Backup  Documents  Downloads  Linux_command  Music  Pictures  project_a  project_a.txt  project_b.txt  project_c.txt  Public  Templates  Unix_Command  Videos
+gopinath@gopinath:~$ cd Linux_command/
+gopinath@gopinath:~/Linux_command$ ls
+sqlite_commands.sh
+gopinath@gopinath:~/Linux_command$ 
+
+
+
+gopinath@gopinath:~/Linux_command$ ls
+sqlite_commands.sh
+gopinath@gopinath:~/Linux_command$ mv sqlite_commands.sh sql.sh
+gopinath@gopinath:~/Linux_command$ ls
+sql.sh
+gopinath@gopinath:~/Linux_command$ cat sql.sh
+#!/bin/bash
+
+echo "project1"
+
+
+
+
+
 
 
 
