@@ -179,6 +179,49 @@ gopinath@gopinath:~/Linux_command$ cat sql.sh
 
 echo "project1"
 
+8)mkdir
+
+
+gopinath@gopinath:~$ ls
+Desktop  Document_Backup  Documents  Downloads  Linux_command  Music  Pictures  project_a  project_a.txt  project_b.txt  project_c.txt  Public  Templates  Unix_Command  Videos
+gopinath@gopinath:~$ mkdir hit_music
+gopinath@gopinath:~$ ls
+Desktop  Document_Backup  Documents  Downloads  hit_music  Linux_command  Music  Pictures  project_a  project_a.txt  project_b.txt  project_c.txt  Public  Templates  Unix_Command  Videos
+
+gopinath@gopinath:~$ mkdir /hit_music/songs
+mkdir: cannot create directory ‘/hit_music/songs’: No such file or directory
+gopinath@gopinath:~$ mkdir /home/gopinath/hit_music/songs
+gopinath@gopinath:~$ cd hit_music/
+gopinath@gopinath:~/hit_music$ ls
+songs
+
+9)rmdir
+
+gopinath@gopinath:~$ rmdir-p hit_music/songs/
+rmdir-p: command not found
+gopinath@gopinath:~$ rmdir -p hit_music/songs/
+gopinath@gopinath:~$ ls
+Desktop  Document_Backup  Documents  Downloads  Linux_command  Music  Pictures  project_a  project_a.txt  project_b.txt  project_c.txt  Public  Templates  Unix_Command  Videos
+
+
+Desktop  Document_Backup  Documents  Downloads  Linux_command  Music  Pictures  project_a  project_a.txt  project_b.txt  project_c.txt  Public  Templates  Unix_Command  Videos
+gopinath@gopinath:~$ rm project_a.txt project_b.txt project_c.txt
+gopinath@gopinath:~$ ls
+Desktop  Document_Backup  Documents  Downloads  Linux_command  Music  Pictures  project_a  Public  Templates  Unix_Command  Videos
+
+10) Touch Command
+
+gopinath@gopinath:~$ touch sqlite_command.sh
+gopinath@gopinath:~$ ls
+Desktop  Document_Backup  Documents  Downloads  Linux_command  Music  Pictures  project_a  Public  sqlite_command.sh  Templates  Unix_Command  Videos
+
+11) Locate -i
+gopinath@gopinath:~$ locate -i school*note
+
+12)Find Command
+
+gopinath@gopinath:~$ find /home -name sqlite_command.sh 
+/home/gopinath/sqlite_command.sh
 
 
 
