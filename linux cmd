@@ -82,10 +82,50 @@ drwxr-xr-x 2 gopinath gopinath 4.0K سبت  3 15:44 Videos
 
 5)cat command
 
+gopinath@gopinath:~$ vim  sqlite_commands.sh
+gopinath@gopinath:~$ cat sqlite_commands.sh
+!#/bin/bash
+
+
+echo "project1"
+
+gopinath@gopinath:~$ vim  sqlite_commands.sh
+
 gopinath@gopinath:~$ cat sqlite_commands.sh
 #!/bin/bash
 
 echo "project1"
+
+gopinath@gopinath:~$ vim project_a.txt
+gopinath@gopinath:~$ vim project_b.txt
+
+gopinath@gopinath:~$ cat project_a.txt
+#!/bin/bash
+
+Projec a details
+
+Text file one
+
+gopinath@gopinath:~$ cat project_b.txt
+#!/bin/bash
+
+Project b
+
+Test project b
+
+gopinath@gopinath:~$ cat project_a.txt project_b.txt > project_c.txt
+
+gopinath@gopinath:~$ cat project_c.txt
+#!/bin/bash
+
+Projec a details
+
+Text file one
+#!/bin/bash
+
+Project b
+
+Test project b
 
 
 
