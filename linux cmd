@@ -337,8 +337,86 @@ gopinath@gopinath:~$ cat Postgras.yml
      location: "a pear tree"
    turtle-doves: two
 
+tar command
 
 
+gopinath@gopinath:~$ tar -cvf project1.tar /home/gopinath/
+tar: Removing leading `/' from member names
+/home/gopinath/
+/home/gopinath/Unix_Command/
+/home/gopinath/Unix_Command/sqlite_commands.sh
+/home/gopinath/Downloads/
+/home/gopinath/.profile
+/home/gopinath/Document_Backup/
+/home/gopinath/Document_Backup/project_a.txt
+/home/gopinath/Document_Backup/project_c.txt
+/home/gopinath/Document_Backup/project_b.txt
+/home/gopinath/.local/
+/home/gopinath/.local/share/
+/home/gopinath/.local/share/gnome-settings-daemon/
+/home/gopinath/.local/share/gnome-settings-daemon/input-sources-converted
+/home/gopinath/.local/share/gvfs-metadata/
+/home/gopinath/.local/share/gvfs-metadata/trash:
+......
+....
+...
+.
+
+/home/gopinath/.bash_logout
+/home/gopinath/Linux_command/
+/home/gopinath/Linux_command/sql.sh
+/home/gopinath/.sudo_as_admin_successful
+/home/gopinath/Public/
+tar: /home/gopinath/project1.tar: file is the archive; not dumped
+/home/gopinath/Templates/
+gopinath@gopinath:~$ ls
+Desktop          Downloads      Pictures      project_a          Sql.yml       Videos
+Document_Backup  Linux_command  Postgras.yml  Public             Templates
+Documents        Music          project1.tar  sqlite_command.sh  Unix_Command
+
+
+21)chmod
+
+gopinath@gopinath:~$ ls -ltr
+total 126788
+drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Videos
+drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Templates
+drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Public
+drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Pictures
+drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Music
+drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Downloads
+drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Desktop
+-rw-rw-r-- 1 gopinath gopinath        29 سبت  3 16:29 project_a
+drwxrwxr-x 2 gopinath gopinath      4096 سبت  3 16:40 Unix_Command
+drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 16:43 Documents
+drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 16:46 Document_Backup
+drwxrwxr-x 2 gopinath gopinath      4096 سبت  3 16:51 Linux_command
+-rw-rw-r-- 1 gopinath gopinath         0 سبت  3 17:11 sqlite_command.sh
+-rw-rw-r-- 1 gopinath gopinath       318 سبت  3 17:43 Sql.yml
+-rw-rw-r-- 1 gopinath gopinath       318 سبت  3 18:09 Postgras.yml
+-rw-rw-r-- 1 gopinath gopinath 129771520 سبت  3 18:12 project1.tar
+gopinath@gopinath:~$ chmod 777 Sql.yml Postgras.yml 
+gopinath@gopinath:~$ ls -ltr
+total 126788
+drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Videos
+drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Templates
+drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Public
+drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Pictures
+drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Music
+drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Downloads
+drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Desktop
+-rw-rw-r-- 1 gopinath gopinath        29 سبت  3 16:29 project_a
+drwxrwxr-x 2 gopinath gopinath      4096 سبت  3 16:40 Unix_Command
+drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 16:43 Documents
+drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 16:46 Document_Backup
+drwxrwxr-x 2 gopinath gopinath      4096 سبت  3 16:51 Linux_command
+-rw-rw-r-- 1 gopinath gopinath         0 سبت  3 17:11 sqlite_command.sh
+-rwxrwxrwx 1 gopinath gopinath       318 سبت  3 17:43 Sql.yml
+-rwxrwxrwx 1 gopinath gopinath       318 سبت  3 18:09 Postgras.yml
+-rw-rw-r-- 1 gopinath gopinath 129771520 سبت  3 18:12 project1.tar
+
+
+22)
 
 
 
