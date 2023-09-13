@@ -127,7 +127,7 @@ Project b
 
 Test project b
 
-6) cp command'
+6)cp command'
 
 
 gopinath@gopinath:~$ cp sqlite_commands.sh /home/gopinath/Unix_Command/
