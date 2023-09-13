@@ -4,7 +4,7 @@ Project 01
 
 Linux commend
 
-1) Sudo command
+1)Sudo command
 
 Result:-
 gopinath@gopinath:~$ sudo apt update
@@ -18,7 +18,7 @@ Building dependency tree
 Reading state information... Done
 321 packages can be upgraded. Run 'apt list --upgradable' to see them.
 
-2) Pwd Commend
+2)Pwd Commend
 
 gopinath@gopinath:~/Linux_command$ pwd
 /home/gopinath/Linux_command
