@@ -21,18 +21,6 @@ sudo is commonly used to run a command as root.
 
 > sudo apt update
 
-Result:-
-gopinath@gopinath:~$ sudo apt update
-[sudo] password for gopinath: 
-Hit:1 http://ae.archive.ubuntu.com/ubuntu focal InRelease
-Hit:2 http://security.ubuntu.com/ubuntu focal-security InRelease
-Hit:3 http://ae.archive.ubuntu.com/ubuntu focal-updates InRelease
-Hit:4 http://ae.archive.ubuntu.com/ubuntu focal-backports InRelease
-Reading package lists... Done
-Building dependency tree       
-Reading state information... Done
-321 packages can be upgraded. Run 'apt list --upgradable' to see them.
-
 ![Alt text](Images/Screenshot%202023-09-13%20at%205.00.48%20PM.png)
 
 # 2)Pwd Commend
