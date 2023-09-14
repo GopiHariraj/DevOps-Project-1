@@ -308,13 +308,13 @@ tmpfs           197M   24K  197M   1% /run/user/1000
 gopinath@gopinath:~$ 
 
 
-16) du command
+# 16) du command
 
 
 gopinath@gopinath:~$ du /home/gopinath/Unix_Command/
 8	/home/gopinath/Unix_Command/
 
-17) Head Command
+# 17) Head Command
 
 gopinath@gopinath:~$ head Sql.yml 
 ---
@@ -328,7 +328,7 @@ gopinath@gopinath:~$ head Sql.yml
    - dewey
    - louie
 
-18) tail command
+# 18) tail command
 
 gopinath@gopinath:~$ tail Sql.yml 
    - louie
@@ -342,7 +342,7 @@ gopinath@gopinath:~$ tail Sql.yml
      location: "a pear tree"
    turtle-doves: two
 
-19)diff command
+# 19)diff command
 gopinath@gopinath:~$ diff Sql.yml Postgras.yml 
 4c4
 <  pi: 3.14159
@@ -431,7 +431,7 @@ Document_Backup  Linux_command  Postgras.yml  Public             Templates
 Documents        Music          project1.tar  sqlite_command.sh  Unix_Command
 
 
-21)chmod command
+# 21)chmod command
 
 gopinath@gopinath:~$ ls -ltr
 total 126788
@@ -471,15 +471,15 @@ drwxrwxr-x 2 gopinath gopinath      4096 سبت  3 16:51 Linux_command
 -rwxrwxrwx 1 gopinath gopinath       318 سبت  3 18:09 Postgras.yml
 -rw-rw-r-- 1 gopinath gopinath 129771520 سبت  3 18:12 project1.tar
 
-22)chown command
+# 22)chown command
 
 
-23)Jobs jobID
+# 23)Jobs jobID
 
 
 
 
-24)ps ux Command
+# 24)ps ux Command
 gopinath@gopinath:~$ ps ux
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 gopinath    4384  0.0  0.5  19740 10412 ?        Ss   20:47   0:00 /lib/systemd/
@@ -557,7 +557,7 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 64 bytes from 8.8.8.8: icmp_seq=3 ttl=63 time=30.3 ms
 64 bytes from 8.8.8.8: icmp_seq=4 ttl=63 time=15.8 ms
 
-26) wget command
+# 26) wget command
 
 gopinath@gopinath:~$ wget www.google.com
 --2023-09-03 21:05:57--  http://www.google.com/
@@ -571,7 +571,7 @@ index.html                             [ <=>                                    
 
 2023-09-03 21:05:58 (1.99 MB/s) - ‘index.html’ saved [21558]
 
-27)uname command
+# 27)uname command
 
 gopinath@gopinath:~$ uname -a
 Linux gopinath 5.15.0-82-generic #91~20.04.1-Ubuntu SMP Fri Aug 18 16:24:39 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
@@ -580,7 +580,7 @@ Linux
 gopinath@gopinath:~$ uname -n
 gopinath
 
-28)top command
+# 28)top command
 
 gopinath@gopinath:~$ top
 
@@ -607,7 +607,7 @@ MiB Swap:   1162.4 total,   1159.7 free,      2.8 used.    633.6 avail Mem
      10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_percpu_wq                                                         
      11 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tasks_rude_  
 
-29)history command
+# 29)history command
 
 gopinath@gopinath:~$ history
     1  sudo useradd
@@ -655,7 +655,7 @@ gopinath@gopinath:~$ history
    43  clear
    44  history
 
-30) man command
+# 30) man command
 
 #gopinath@gopinath:~$ man chown
 
@@ -728,20 +728,20 @@ OPTIONS
  Manual page chown(1) line 1 (press h for help or q to quit)
 
 
-31) echo command
+# 31) echo command
 
 #gopinath@gopinath:~$ echo "project1"
 project1
 
 
-32) unzip command
+# 32) unzip command
 
-33)hostname command
+# 33)hostname command
 
 gopinath@gopinath:~$ hostname
 gopinath
 
-34)adduser deluser command
+# 34)adduser deluser command
 
 gopinath@gopinath:~$ sudo useradd Linuxuser2
  
@@ -752,7 +752,7 @@ New password:
 Retype new password: 
 passwd: password updated successfully
 
-35)apt-get command
+# 35)apt-get command
 #gopinath@gopinath:~$ sudo apt-get update -y
 Get:1 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
 Hit:2 http://ae.archive.ubuntu.com/ubuntu focal InRelease
@@ -772,7 +772,7 @@ Reading package lists... Done
 
 
 
-36)Nano,vi command
+# 36)Nano,vi command
 
 
 gopinath@gopinath:~$ nano firstfile1.txt
@@ -783,17 +783,28 @@ first file project1
 gopinath@gopinath:~$ cat secondfile2.sh 
 test
 
-37)alias,unalias command
+# 37)alias,unalias command
 
 
 
-38) Su command
+# 38) Su command
+
+> su <user name>
+
+While you're logged in to the terminal shell with one
+user, you might have the need to switch to another
+user.
 
 gopinath@gopinath:~$ sudo su Linuxuser2
 $ whoami
 Linuxuser2
 
-39)htop command
+# 39)htop command
+
+A quick guide to the top command, used to list the
+processes running in real time
+
+> htop
 
 gopinath@gopinath:~$ htop
 
@@ -836,7 +847,15 @@ gopinath@gopinath:~$ htop
 
 [1]+  Stopped                 htop
 
-40)ps command
+# 40)ps command
+
+This is the list of user-initiated processes currently
+running in the current session.
+
+Syntax
+> ps
+
+
 
 gopinath@gopinath:~$ ps
     PID TTY          TIME CMD
