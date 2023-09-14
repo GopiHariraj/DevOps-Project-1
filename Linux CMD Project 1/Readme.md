@@ -144,6 +144,7 @@ Test project b
 
 6)cp command'
 
+Coping a file using command
 
 gopinath@gopinath:~$ cp sqlite_commands.sh /home/gopinath/Unix_Command/
 gopinath@gopinath:~$ cd Unix_Command/
@@ -182,7 +183,7 @@ gopinath@gopinath:~/Linux_command$ ls
 sqlite_commands.sh
 gopinath@gopinath:~/Linux_command$ 
 
-
+![Alt text](Images/Screen3.png)
 
 gopinath@gopinath:~/Linux_command$ ls
 sqlite_commands.sh
