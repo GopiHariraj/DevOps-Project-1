@@ -29,6 +29,8 @@ Building dependency tree
 Reading state information... Done
 321 packages can be upgraded. Run 'apt list --upgradable' to see them.
 
+![Alt text](Images/Screenshot%202023-09-13%20at%205.00.48%20PM.png)
+
 2)Pwd Commend
 
 gopinath@gopinath:~/Linux_command$ pwd
