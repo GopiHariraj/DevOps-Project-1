@@ -107,7 +107,7 @@ Syntax
 
 ![Alt text](Images/rmdir.png)
 
-**10)rm **
+**10)rm**
 
 Removing file name
 
@@ -116,13 +116,13 @@ Syntax
 
 ![Alt text](Images/rm.png)
 
-**11) Touch Command**
+**11) Touch**
 
-Syntax
+You can create an empty file using
 
+Command
 > touch "file name"
 
-Create a emty folder file
 
 **12) Locate -i**
 gopinath@gopinath:~$ locate -i school*note
