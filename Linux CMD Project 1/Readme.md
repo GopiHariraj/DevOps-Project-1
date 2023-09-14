@@ -29,41 +29,32 @@ sudo is commonly used to run a command as root.
 
 **2)Pwd Commend**
 
+Print working directory 
+
 Syntax
 > pwd
 
-Print working directory 
-
-gopinath@gopinath:~/Linux_command$ pwd
-/home/gopinath/Linux_command
-
-
 **3)cd Command**
+
+change directory location
 
 Syntax
 > cd
 
-change directory
-
-Results
-> gopinath@gopinath:~/Linux_command$ cd
-> gopinath@gopinath:~$ 
-
 **4)ls Command**
-
-Syntax
-> ls
 
 List (listof the file)
 
-
-
+Syntax
+> ls
 
 gopinath@gopinath:~$ ls -lh
 
 >ls -lh
 
 **5)cat command**
+
+Showing file content
 
 Syntax
 
@@ -79,113 +70,55 @@ Syntax
 
 Coping a file using command
 
-gopinath@gopinath:~$ cp sqlite_commands.sh /home/gopinath/Unix_Command/
-gopinath@gopinath:~$ cd Unix_Command/
-gopinath@gopinath:~/Unix_Command$ ls
-sqlite_commands.sh
-gopinath@gopinath:~/Unix_Command$ 
 
-gopinath@gopinath:~$ cp project_a.txt project_b.txt project_c.txt /home/gopinath/Documents/
-gopinath@gopinath:~$ cd Documents/
-gopinath@gopinath:~/Documents$ ls
-project_a.txt  project_b.txt  project_c.txt
-gopinath@gopinath:~/Documents$ 
-gopinath@gopinath:~/Documents$ cp project_a.txt project_b.txt
-gopinath@gopinath:~/Documents$ cp -R /home/gopinath/Do
-Documents/ Downloads/ 
-gopinath@gopinath:~/Documents$ cp -R /home/gopinath/Documents/ /home/gopinath/Document_Backup
-gopinath@gopinath:~/Documents$ ls
-project_a.txt  project_b.txt  project_c.txt
-gopinath@gopinath:~/Documents$ cd
-gopinath@gopinath:~$ ls
-Desktop  Document_Backup  Documents  Downloads  Linux_command  Music  Pictures  project_a  project_a.txt  project_b.txt  project_c.txt  Public  sqlite_commands.sh  Templates  Unix_Command  Videos
 
-gopinath@gopinath:~$ ls
-Desktop  Document_Backup  Documents  Downloads  Linux_command  Music  Pictures  project_a  project_a.txt  project_b.txt  project_c.txt  Public  sqlite_commands.sh  Templates  Unix_Command  Videos
-gopinath@gopinath:~$ cd Document_Backup/
-gopinath@gopinath:~/Document_Backup$ ls
-project_a.txt  project_b.txt  project_c.txt
+**7)mv command**
 
-# 7)mv command
+Syntax
 
 > mv "file name" /Distination location/
 
-gopinath@gopinath:~$ mv sqlite_commands.sh /home/gopinath/Linux_command/
-gopinath@gopinath:~$ ls
-Desktop  Document_Backup  Documents  Downloads  Linux_command  Music  Pictures  project_a  project_a.txt  project_b.txt  project_c.txt  Public  Templates  Unix_Command  Videos
-gopinath@gopinath:~$ cd Linux_command/
-gopinath@gopinath:~/Linux_command$ ls
-sqlite_commands.sh
-gopinath@gopinath:~/Linux_command$ 
+Moving file from one place to another location.
+
 
 ![Alt text](Images/Screen3.png)
 
-gopinath@gopinath:~/Linux_command$ ls
-sqlite_commands.sh
-gopinath@gopinath:~/Linux_command$ mv sqlite_commands.sh sql.sh
-gopinath@gopinath:~/Linux_command$ ls
-sql.sh
-gopinath@gopinath:~/Linux_command$ cat sql.sh
-#!/bin/bash
+**8)mkdir**
 
-echo "project1"
-
-# 8)mkdir
+Syntax
 
 > mkdir "filename"
 
-
-gopinath@gopinath:~$ ls
-Desktop  Document_Backup  Documents  Downloads  Linux_command  Music  Pictures  project_a  project_a.txt  project_b.txt  project_c.txt  Public  Templates  Unix_Command  Videos
-gopinath@gopinath:~$ mkdir hit_music
-gopinath@gopinath:~$ ls
-Desktop  Document_Backup  Documents  Downloads  hit_music  Linux_command  Music  Pictures  project_a  project_a.txt  project_b.txt  project_c.txt  Public  Templates  Unix_Command  Videos
-
-gopinath@gopinath:~$ mkdir /hit_music/songs
-mkdir: cannot create directory ‘/hit_music/songs’: No such file or directory
-gopinath@gopinath:~$ mkdir /home/gopinath/hit_music/songs
-gopinath@gopinath:~$ cd hit_music/
-gopinath@gopinath:~/hit_music$ ls
-songs
+Make directory file
 
 **9)rmdir**
 
+Syntax
 >rmdir "filename"
 
-gopinath@gopinath:~$ rmdir-p hit_music/songs/
-rmdir-p: command not found
-gopinath@gopinath:~$ rmdir -p hit_music/songs/
-gopinath@gopinath:~$ ls
-Desktop  Document_Backup  Documents  Downloads  Linux_command  Music  Pictures  project_a  project_a.txt  project_b.txt  project_c.txt  Public  Templates  Unix_Command  Videos
-10)rm
+Remove the directory file
 
-Desktop  Document_Backup  Documents  Downloads  Linux_command  Music  Pictures  project_a  project_a.txt  project_b.txt  project_c.txt  Public  Templates  Unix_Command  Videos
-gopinath@gopinath:~$ rm project_a.txt project_b.txt project_c.txt
-gopinath@gopinath:~$ ls
-Desktop  Document_Backup  Documents  Downloads  Linux_command  Music  Pictures  project_a  Public  Templates  Unix_Command  Videos
+**11) Touch Command**
 
-# 11) Touch Command
+Syntax
 
 > touch "file name"
 
+Create a emty folder file
 
-gopinath@gopinath:~$ touch sqlite_command.sh
-gopinath@gopinath:~$ ls
-Desktop  Document_Backup  Documents  Downloads  Linux_command  Music  Pictures  project_a  Public  sqlite_command.sh  Templates  Unix_Command  Videos
-
-# 12) Locate -i
+**12) Locate -i**
 gopinath@gopinath:~$ locate -i school*note
 
-# 13)Find Command
+**13)Find Command**
 
 gopinath@gopinath:~$ find /home -name sqlite_command.sh 
 /home/gopinath/sqlite_command.sh
 
-# 14) grep command
+**14) grep command**
 
 gopinath@gopinath:~$ grep sqlite_command.sh 
 
-# 15) df command
+**15) df command**
 
 
 gopinath@gopinath:~$ df -h
@@ -764,7 +697,7 @@ gopinath@gopinath:~$ htop
 
 [1]+  Stopped                 htop
 
-# 40)ps command
+**40)ps command**
 
 This is the list of user-initiated processes currently
 running in the current session.
