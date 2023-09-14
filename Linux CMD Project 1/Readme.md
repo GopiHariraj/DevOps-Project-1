@@ -61,67 +61,10 @@ gopinath@gopinath:~$ ls -lh
 
 >ls -lh
 
-total 40K
-drwxr-xr-x 2 gopinath gopinath 4.0K سبت  3 15:44 Desktop
-drwxr-xr-x 2 gopinath gopinath 4.0K سبت  3 15:44 Documents
-drwxr-xr-x 2 gopinath gopinath 4.0K سبت  3 15:44 Downloads
-drwxrwxr-x 2 gopinath gopinath 4.0K سبت  3 16:01 Linux_command
-drwxr-xr-x 2 gopinath gopinath 4.0K سبت  3 15:44 Music
-drwxr-xr-x 2 gopinath gopinath 4.0K سبت  3 15:44 Pictures
-drwxr-xr-x 2 gopinath gopinath 4.0K سبت  3 15:44 Public
-drwxr-xr-x 2 gopinath gopinath 4.0K سبت  3 15:44 Templates
-drwxrwxr-x 2 gopinath gopinath 4.0K سبت  3 16:03 Unix_Command
-drwxr-xr-x 2 gopinath gopinath 4.0K سبت  3 15:44 Videos
-
-
 **5)cat command**
 
 > cat "File name"
 
-gopinath@gopinath:~$ vim  sqlite_commands.sh
-gopinath@gopinath:~$ cat sqlite_commands.sh
-!#/bin/bash
-
-
-echo "project1"
-
-gopinath@gopinath:~$ vim  sqlite_commands.sh
-
-gopinath@gopinath:~$ cat sqlite_commands.sh
-#!/bin/bash
-
-echo "project1"
-
-gopinath@gopinath:~$ vim project_a.txt
-gopinath@gopinath:~$ vim project_b.txt
-
-gopinath@gopinath:~$ cat project_a.txt
-#!/bin/bash
-
-Projec a details
-
-Text file one
-
-gopinath@gopinath:~$ cat project_b.txt
-#!/bin/bash
-
-Project b
-
-Test project b
-
-gopinath@gopinath:~$ cat project_a.txt project_b.txt > project_c.txt
-
-gopinath@gopinath:~$ cat project_c.txt
-#!/bin/bash
-
-Projec a details
-
-Text file one
-#!/bin/bash
-
-Project b
-
-Test project b
 
 ![Alt text](Images/Screen2.png)
 
