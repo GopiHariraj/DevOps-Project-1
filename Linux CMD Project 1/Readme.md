@@ -234,7 +234,7 @@ gopinath@gopinath:~$ cd hit_music/
 gopinath@gopinath:~/hit_music$ ls
 songs
 
-# 9)rmdir
+**9)rmdir**
 
 >rmdir "filename"
 
