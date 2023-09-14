@@ -11,8 +11,11 @@ Tasks that require multiple steps on the GUI can be done in a matter of seconds 
 
 Prerequirments:-
 Windows are MAC operating system
+
 Virtual box
+
 Ubuntu Operating system
+
 
 
 **1)Sudo command**
