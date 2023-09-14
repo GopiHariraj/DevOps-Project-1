@@ -15,7 +15,7 @@ Virtual box
 Ubuntu Operating system
 
 
-# 1)Sudo command
+**1)Sudo command**
 
 sudo is commonly used to run a command as root.
 
@@ -23,7 +23,7 @@ sudo is commonly used to run a command as root.
 
 ![Alt text](Images/Screenshot%202023-09-13%20at%205.00.48%20PM.png)
 
-# 2)Pwd Commend
+**2)Pwd Commend**
 
 Syntax
 > pwd
@@ -34,7 +34,7 @@ gopinath@gopinath:~/Linux_command$ pwd
 /home/gopinath/Linux_command
 
 
-# 3)cd Command
+**3)cd Command**
 Syntax
 > cd
 
@@ -44,7 +44,7 @@ Results
 > gopinath@gopinath:~/Linux_command$ cd
 > gopinath@gopinath:~$ 
 
-# 4)ls Command
+**4)ls Command**
 Syntax
 > ls
 
@@ -108,7 +108,7 @@ drwxrwxr-x 2 gopinath gopinath 4.0K سبت  3 16:03 Unix_Command
 drwxr-xr-x 2 gopinath gopinath 4.0K سبت  3 15:44 Videos
 
 
-# 5)cat command
+**5)cat command**
 
 > cat "File name"
 
@@ -159,7 +159,7 @@ Test project b
 
 ![Alt text](Images/Screen2.png)
 
-# 6)cp command'
+**6)cp command**
 
 > cd "file name" /Distination Directory/
 
