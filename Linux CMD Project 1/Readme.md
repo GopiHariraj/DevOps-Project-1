@@ -9,13 +9,13 @@ When operating Linux, you need to use a shell - a program that gives you access 
 
 Tasks that require multiple steps on the GUI can be done in a matter of seconds by entering commands into the CLI.
 
-Prerequirments:-
+**Prerequirments:-**
 
-Windows are MAC operating system
+1)Windows are MAC operating system
 
-Virtual box
+2)Virtual box
 
-Ubuntu Operating system
+3)Ubuntu Operating system
 
 
 
