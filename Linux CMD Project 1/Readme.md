@@ -53,8 +53,8 @@ Syntax
 change directory
 
 Results
->gopinath@gopinath:~/Linux_command$ cd
->gopinath@gopinath:~$ 
+> gopinath@gopinath:~/Linux_command$ cd
+> gopinath@gopinath:~$ 
 
 # 4)ls Command
 Syntax
