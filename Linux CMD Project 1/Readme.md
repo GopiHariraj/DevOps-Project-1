@@ -15,7 +15,7 @@ Virtual box
 Ubuntu Operating system
 
 
-1)Sudo command
+## 1)Sudo command
 
 Result:-
 gopinath@gopinath:~$ sudo apt update
