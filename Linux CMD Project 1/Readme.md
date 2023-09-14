@@ -264,7 +264,7 @@ Desktop  Document_Backup  Documents  Downloads  Linux_command  Music  Pictures  
 
 # 11) Touch Command
 
-"touch "file name"
+> touch "file name"
 
 
 gopinath@gopinath:~$ touch sqlite_command.sh
