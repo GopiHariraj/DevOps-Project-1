@@ -740,6 +740,8 @@ project1
 
 # 32) unzip command
 
+![Alt text](Images/zip.png)
+
 # 33)hostname command
 
 Syntax
