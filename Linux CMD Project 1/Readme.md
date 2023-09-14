@@ -820,7 +820,7 @@ processes running in real time
 
 > htop
 
-![Alt text](Images/htop.png)
+![Alt text](Images/Htop.png)
 gopinath@gopinath:~$ htop
 
 Command 'htop' not found, but can be installed with:
@@ -872,7 +872,7 @@ Syntax
 > ps
 
 
-![Alt text](Images/ps.png)
+![Alt text](Images/PS.png)
 
 gopinath@gopinath:~$ ps
     PID TTY          TIME CMD
