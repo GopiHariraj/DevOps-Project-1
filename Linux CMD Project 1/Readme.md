@@ -60,6 +60,7 @@ Syntax
 > ls
 
 List (listof the file)
+
 gopinath@gopinath:~$ ls
 Desktop  Documents  Downloads  Linux_command  Music  Pictures  Public  Templates  Unix_Command  Videos
 
