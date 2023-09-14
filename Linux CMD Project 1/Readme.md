@@ -9,6 +9,12 @@ When operating Linux, you need to use a shell - a program that gives you access 
 
 Tasks that require multiple steps on the GUI can be done in a matter of seconds by entering commands into the CLI.
 
+Prerequirments:-
+Windows are MAC operating system
+Virtual box
+Ubuntu Operating system
+
+
 1)Sudo command
 
 Result:-
