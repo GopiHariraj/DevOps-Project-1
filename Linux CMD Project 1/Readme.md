@@ -206,6 +206,8 @@ project_a.txt  project_b.txt  project_c.txt
 
 # 7)mv command
 
+> mv "file name" /Distination location/
+
 gopinath@gopinath:~$ mv sqlite_commands.sh /home/gopinath/Linux_command/
 gopinath@gopinath:~$ ls
 Desktop  Document_Backup  Documents  Downloads  Linux_command  Music  Pictures  project_a  project_a.txt  project_b.txt  project_c.txt  Public  Templates  Unix_Command  Videos
@@ -228,6 +230,8 @@ echo "project1"
 
 # 8)mkdir
 
+> mkdir "filename"
+
 
 gopinath@gopinath:~$ ls
 Desktop  Document_Backup  Documents  Downloads  Linux_command  Music  Pictures  project_a  project_a.txt  project_b.txt  project_c.txt  Public  Templates  Unix_Command  Videos
@@ -244,6 +248,8 @@ songs
 
 # 9)rmdir
 
+>rmdir "filename"
+
 gopinath@gopinath:~$ rmdir-p hit_music/songs/
 rmdir-p: command not found
 gopinath@gopinath:~$ rmdir -p hit_music/songs/
@@ -257,6 +263,9 @@ gopinath@gopinath:~$ ls
 Desktop  Document_Backup  Documents  Downloads  Linux_command  Music  Pictures  project_a  Public  Templates  Unix_Command  Videos
 
 # 11) Touch Command
+
+"touch "file name"
+
 
 gopinath@gopinath:~$ touch sqlite_command.sh
 gopinath@gopinath:~$ ls
