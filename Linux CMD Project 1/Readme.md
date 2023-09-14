@@ -19,6 +19,7 @@ Ubuntu Operating system
 
 sudo is commonly used to run a command as root.
 
+> sudo apt update
 
 Result:-
 gopinath@gopinath:~$ sudo apt update
