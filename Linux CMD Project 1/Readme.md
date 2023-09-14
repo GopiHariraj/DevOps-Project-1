@@ -54,44 +54,6 @@ Syntax
 
 List (listof the file)
 
-gopinath@gopinath:~$ ls
-Desktop  Documents  Downloads  Linux_command  Music  Pictures  Public  Templates  Unix_Command  Videos
-
-gopinath@gopinath:~$ ls /home/gopinath
-Desktop  Documents  Downloads  Linux_command  Music  Pictures  Public  Templates  Unix_Command  Videos
-gopinath@gopinath:~$ ls -R
-.:
-Desktop  Documents  Downloads  Linux_command  Music  Pictures  Public  Templates  Unix_Command  Videos
-
-./Desktop:
-
-./Documents:
-
-./Downloads:
-
-./Linux_command:
-
-./Music:
-
-./Pictures:
-
-./Public:
-
-./Templates:
-
-./Unix_Command:
-
-./Videos:
-
-gopinath@gopinath:~$ ls -a
-
-Syntax
-> ls -a
-
-> -a is optional combination
-
-.   .bash_logout  .cache   Desktop    Downloads  Linux_command  .mozilla  Pictures  Public  .sudo_as_admin_successful  Unix_Command
-..  .bashrc       .config  Documents  .gnupg     .local         Music     .profile  .ssh    Templates                  Videos
 
 
 
