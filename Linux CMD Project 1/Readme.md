@@ -25,7 +25,7 @@ sudo is commonly used to run a command as root.
 
 > sudo apt update
 
-![Alt text](Images/Screenshot%202023-09-13%20at%205.00.48%20PM.png)
+![Alt text](Images/sudo.png)
 
 **2)Pwd Commend**
 
