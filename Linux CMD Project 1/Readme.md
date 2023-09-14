@@ -657,6 +657,10 @@ gopinath@gopinath:~$ history
 
 # 30) man command
 
+Syntax
+> man <command>
+
+
 #gopinath@gopinath:~$ man chown
 
 CHOWN(1)                                                      User Commands                                                     CHOWN(1)
@@ -738,10 +742,14 @@ project1
 
 # 33)hostname command
 
+Syntax
+> hostname
+
 gopinath@gopinath:~$ hostname
 gopinath
 
 # 34)adduser deluser command
+
 
 gopinath@gopinath:~$ sudo useradd Linuxuser2
  
@@ -753,6 +761,10 @@ Retype new password:
 passwd: password updated successfully
 
 # 35)apt-get command
+
+> sudo apt-get install vlc
+
+
 #gopinath@gopinath:~$ sudo apt-get update -y
 Get:1 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
 Hit:2 http://ae.archive.ubuntu.com/ubuntu focal InRelease
