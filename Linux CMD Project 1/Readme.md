@@ -96,13 +96,25 @@ Make directory file
 Syntax
 > mkdir "filename"
 
+![Alt text](Images/mkdir.png)
 
 **9)rmdir**
 
-Syntax
->rmdir "filename"
+Removing directory file 
 
-Remove the directory file
+Syntax
+>rmdir "directory name"
+
+![Alt text](Images/rmdir.png)
+
+**10)rm **
+
+Removing file name
+
+Syntax
+>rm "file name"
+
+![Alt text](Images/rm.png)
 
 **11) Touch Command**
 
