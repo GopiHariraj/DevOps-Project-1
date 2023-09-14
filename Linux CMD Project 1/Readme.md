@@ -1,4 +1,4 @@
-di                                                      LINUX COMMAND 
+                                                     LINUX COMMAND 
 
 # Project 01
 
