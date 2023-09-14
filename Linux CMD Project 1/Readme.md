@@ -73,31 +73,29 @@ Syntax
 
 **6)cp command**
 
+Coping a file using command
+
 Syntax
 > cd "file name" /Distination Directory/
 
-Coping a file using command
-
-
+![Alt text](Images/cp.png)
 
 **7)mv command**
 
-Syntax
-
-> mv "file name" /Distination location/
-
 Moving file from one place to another location.
 
+Syntax
+> mv "file name" /Distination location/
 
-![Alt text](Images/Screen3.png)
+![Alt text](Images/mv.png)
 
 **8)mkdir**
 
-Syntax
+Make directory file
 
+Syntax
 > mkdir "filename"
 
-Make directory file
 
 **9)rmdir**
 
