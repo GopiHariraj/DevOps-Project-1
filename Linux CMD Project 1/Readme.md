@@ -35,7 +35,7 @@ Reading state information... Done
 
 ![Alt text](Images/Screenshot%202023-09-13%20at%205.00.48%20PM.png)
 
-2)Pwd Commend
+# 2)Pwd Commend
 
 Syntax
 > pwd
@@ -46,13 +46,13 @@ gopinath@gopinath:~/Linux_command$ pwd
 /home/gopinath/Linux_command
 
 
-3)cd Command
+# 3)cd Command
 > cd
 
 gopinath@gopinath:~/Linux_command$ cd
 gopinath@gopinath:~$ 
 
-4)ls Command
+# 4)ls Command
 > ls
 
 gopinath@gopinath:~$ ls
@@ -109,7 +109,7 @@ drwxrwxr-x 2 gopinath gopinath 4.0K سبت  3 16:03 Unix_Command
 drwxr-xr-x 2 gopinath gopinath 4.0K سبت  3 15:44 Videos
 
 
-5)cat command
+# 5)cat command
 
 > cat "File name"
 
@@ -160,7 +160,7 @@ Test project b
 
 ![Alt text](Images/Screen2.png)
 
-6)cp command'
+# 6)cp command'
 
 > cd "file name" /Distination Directory/
 
@@ -193,7 +193,7 @@ gopinath@gopinath:~$ cd Document_Backup/
 gopinath@gopinath:~/Document_Backup$ ls
 project_a.txt  project_b.txt  project_c.txt
 
-7)mv command
+# 7)mv command
 
 gopinath@gopinath:~$ mv sqlite_commands.sh /home/gopinath/Linux_command/
 gopinath@gopinath:~$ ls
@@ -215,7 +215,7 @@ gopinath@gopinath:~/Linux_command$ cat sql.sh
 
 echo "project1"
 
-8)mkdir
+# 8)mkdir
 
 
 gopinath@gopinath:~$ ls
@@ -231,7 +231,7 @@ gopinath@gopinath:~$ cd hit_music/
 gopinath@gopinath:~/hit_music$ ls
 songs
 
-9)rmdir
+# 9)rmdir
 
 gopinath@gopinath:~$ rmdir-p hit_music/songs/
 rmdir-p: command not found
@@ -245,25 +245,25 @@ gopinath@gopinath:~$ rm project_a.txt project_b.txt project_c.txt
 gopinath@gopinath:~$ ls
 Desktop  Document_Backup  Documents  Downloads  Linux_command  Music  Pictures  project_a  Public  Templates  Unix_Command  Videos
 
-11) Touch Command
+# 11) Touch Command
 
 gopinath@gopinath:~$ touch sqlite_command.sh
 gopinath@gopinath:~$ ls
 Desktop  Document_Backup  Documents  Downloads  Linux_command  Music  Pictures  project_a  Public  sqlite_command.sh  Templates  Unix_Command  Videos
 
-12) Locate -i
+# 12) Locate -i
 gopinath@gopinath:~$ locate -i school*note
 
-13)Find Command
+# 13)Find Command
 
 gopinath@gopinath:~$ find /home -name sqlite_command.sh 
 /home/gopinath/sqlite_command.sh
 
-14) grep command
+# 14) grep command
 
 gopinath@gopinath:~$ grep sqlite_command.sh 
 
-15) df command
+# 15) df command
 
 
 gopinath@gopinath:~$ df -h
