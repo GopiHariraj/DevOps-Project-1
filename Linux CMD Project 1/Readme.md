@@ -47,14 +47,19 @@ gopinath@gopinath:~/Linux_command$ pwd
 
 
 # 3)cd Command
+Syntax
 > cd
+
+change directory
 
 gopinath@gopinath:~/Linux_command$ cd
 gopinath@gopinath:~$ 
 
 # 4)ls Command
+Syntax
 > ls
 
+List (listof the file)
 gopinath@gopinath:~$ ls
 Desktop  Documents  Downloads  Linux_command  Music  Pictures  Public  Templates  Unix_Command  Videos
 
@@ -86,7 +91,11 @@ Desktop  Documents  Downloads  Linux_command  Music  Pictures  Public  Templates
 
 gopinath@gopinath:~$ ls -a
 
+Syntax
 > ls -a
+
+> -a is optional combination
+
 .   .bash_logout  .cache   Desktop    Downloads  Linux_command  .mozilla  Pictures  Public  .sudo_as_admin_successful  Unix_Command
 ..  .bashrc       .config  Documents  .gnupg     .local         Music     .profile  .ssh    Templates                  Videos
 
