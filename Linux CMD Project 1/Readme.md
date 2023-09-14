@@ -39,6 +39,7 @@ gopinath@gopinath:~/Linux_command$ pwd
 
 
 **3)cd Command**
+
 Syntax
 > cd
 
@@ -49,6 +50,7 @@ Results
 > gopinath@gopinath:~$ 
 
 **4)ls Command**
+
 Syntax
 > ls
 
@@ -63,6 +65,8 @@ gopinath@gopinath:~$ ls -lh
 
 **5)cat command**
 
+Syntax
+
 > cat "File name"
 
 
@@ -70,6 +74,7 @@ gopinath@gopinath:~$ ls -lh
 
 **6)cp command**
 
+Syntax
 > cd "file name" /Distination Directory/
 
 Coping a file using command
