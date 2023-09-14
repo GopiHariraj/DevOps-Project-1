@@ -36,17 +36,20 @@ Reading state information... Done
 ![Alt text](Images/Screenshot%202023-09-13%20at%205.00.48%20PM.png)
 
 2)Pwd Commend
+> pwd
 
 gopinath@gopinath:~/Linux_command$ pwd
 /home/gopinath/Linux_command
 
 
 3)cd Command
+> cd
 
 gopinath@gopinath:~/Linux_command$ cd
 gopinath@gopinath:~$ 
 
 4)ls Command
+> ls
 
 gopinath@gopinath:~$ ls
 Desktop  Documents  Downloads  Linux_command  Music  Pictures  Public  Templates  Unix_Command  Videos
@@ -78,12 +81,17 @@ Desktop  Documents  Downloads  Linux_command  Music  Pictures  Public  Templates
 ./Videos:
 
 gopinath@gopinath:~$ ls -a
+
+> ls -a
 .   .bash_logout  .cache   Desktop    Downloads  Linux_command  .mozilla  Pictures  Public  .sudo_as_admin_successful  Unix_Command
 ..  .bashrc       .config  Documents  .gnupg     .local         Music     .profile  .ssh    Templates                  Videos
 
 
 
 gopinath@gopinath:~$ ls -lh
+
+>ls -lh
+
 total 40K
 drwxr-xr-x 2 gopinath gopinath 4.0K سبت  3 15:44 Desktop
 drwxr-xr-x 2 gopinath gopinath 4.0K سبت  3 15:44 Documents
@@ -98,6 +106,8 @@ drwxr-xr-x 2 gopinath gopinath 4.0K سبت  3 15:44 Videos
 
 
 5)cat command
+
+> cat "File name"
 
 gopinath@gopinath:~$ vim  sqlite_commands.sh
 gopinath@gopinath:~$ cat sqlite_commands.sh
@@ -147,6 +157,8 @@ Test project b
 ![Alt text](Images/Screen2.png)
 
 6)cp command'
+
+> cd "file name" /Distination Directory/
 
 Coping a file using command
 
