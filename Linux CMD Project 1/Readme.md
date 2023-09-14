@@ -23,6 +23,7 @@ Tasks that require multiple steps on the GUI can be done in a matter of seconds 
 
 sudo is commonly used to run a command as root.
 
+Syntax
 > sudo apt update
 
 ![Alt text](Images/sudo.png)
@@ -34,12 +35,16 @@ Print working directory
 Syntax
 > pwd
 
+![Alt text](Images/pwd.png)
+
 **3)cd Command**
 
 change directory location
 
 Syntax
 > cd
+
+![Alt text](Images/cd.png)
 
 **4)ls Command**
 
@@ -48,20 +53,23 @@ List (listof the file)
 Syntax
 > ls
 
+![Alt text](Images/ls.png)
+
 gopinath@gopinath:~$ ls -lh
 
+Syntax
 >ls -lh
+
+![Alt text](Images/ls%20-lh.png)
 
 **5)cat command**
 
 Showing file content
 
 Syntax
-
 > cat "File name"
 
-
-![Alt text](Images/Screen2.png)
+![Alt text](Images/cat.png)
 
 **6)cp command**
 
