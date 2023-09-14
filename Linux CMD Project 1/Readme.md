@@ -658,7 +658,7 @@ gopinath@gopinath:~$ history
 # 30) man command
 
 Syntax
-> man <command>
+> man "command"
 
 
 #gopinath@gopinath:~$ man chown
@@ -801,7 +801,7 @@ test
 
 # 38) Su command
 
-> su <user name>
+> su "user name"
 
 While you're logged in to the terminal shell with one
 user, you might have the need to switch to another
