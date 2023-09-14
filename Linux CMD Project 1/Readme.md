@@ -36,7 +36,11 @@ Reading state information... Done
 ![Alt text](Images/Screenshot%202023-09-13%20at%205.00.48%20PM.png)
 
 2)Pwd Commend
+
+Syntax
 > pwd
+
+Print working directory 
 
 gopinath@gopinath:~/Linux_command$ pwd
 /home/gopinath/Linux_command
