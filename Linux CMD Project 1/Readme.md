@@ -3,6 +3,11 @@
 # Project 01
 
 Linux commend
+Linux is a family of open-source Unix operating systems based on the Linux kernel. They include Ubuntu, Fedora, Debian, OpenSUSE, and Red Hat. In this project, we used a VirtualBox virtual machine to install Ubuntu 20.04 LTS version and ran shell commands on the Ubuntu terminal.
+
+When operating Linux, you need to use a shell - a program that gives you access to the operating system. Most of the Linux distributions use a graphical user interface (GUI). However, others utilize the command-line interface (CLI).
+
+Tasks that require multiple steps on the GUI can be done in a matter of seconds by entering commands into the CLI.
 
 1)Sudo command
 
