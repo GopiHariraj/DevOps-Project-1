@@ -17,6 +17,9 @@ Ubuntu Operating system
 
 # 1)Sudo command
 
+sudo is commonly used to run a command as root.
+
+
 Result:-
 gopinath@gopinath:~$ sudo apt update
 [sudo] password for gopinath: 
