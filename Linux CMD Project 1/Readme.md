@@ -123,206 +123,117 @@ You can create an empty file using
 Command
 > touch "file name"
 
+![Alt text](Images/Touch.png)
 
 **12) Locate -i**
 gopinath@gopinath:~$ locate -i school*note
 
 **13)Find Command**
 
+Finding file loction
+>find "file name"
+
+![Alt text](Images/Find.png)
+
 gopinath@gopinath:~$ find /home -name sqlite_command.sh 
 /home/gopinath/sqlite_command.sh
 
 **14) grep command**
 
+grep is chasing a perticular operation or funtion
+>grep "operation"
+
+![Alt text](Images/grep.png)
+
 gopinath@gopinath:~$ grep sqlite_command.sh 
 
 **15) df command**
 
+Define all file size 
+Command
+>df      
+and 
+>df -h
 
-gopinath@gopinath:~$ df -h
-Filesystem      Size  Used Avail Use% Mounted on
-udev            944M     0  944M   0% /dev
-tmpfs           197M  1.4M  196M   1% /run
-/dev/sda5        24G  9.2G   14G  41% /
-tmpfs           983M     0  983M   0% /dev/shm
-tmpfs           5.0M  4.0K  5.0M   1% /run/lock
-tmpfs           983M     0  983M   0% /sys/fs/cgroup
-/dev/loop0      347M  347M     0 100% /snap/gnome-3-38-2004/115
-/dev/loop1      128K  128K     0 100% /snap/bare/5
-/dev/loop2       62M   62M     0 100% /snap/core20/1611
-/dev/loop3       92M   92M     0 100% /snap/gtk-common-themes/1535
-/dev/loop4       55M   55M     0 100% /snap/snap-store/558
-/dev/loop5       47M   47M     0 100% /snap/snapd/16292
-/dev/sda1       511M  4.0K  511M   1% /boot/efi
-tmpfs           197M   24K  197M   1% /run/user/1000
-/dev/loop6       74M   74M     0 100% /snap/core22/864
-/dev/loop7      350M  350M     0 100% /snap/gnome-3-38-2004/143
-/dev/loop8       13M   13M     0 100% /snap/snap-store/959
-gopinath@gopinath:~$ 
+![Alt text](Images/size.png)
 
+-h human best understanding way define
+![Alt text](Images/sizeh.png)
 
 **16) du command**
+How many files and storage are taken in the directory
 
+Command
+>du
+
+![Alt text](Images/du.png)
 
 gopinath@gopinath:~$ du /home/gopinath/Unix_Command/
 8	/home/gopinath/Unix_Command/
 
 **17) Head Command**
 
-gopinath@gopinath:~$ head Sql.yml 
----
- doe: "a deer, a female deer"
- ray: "a drop of golden sun"
- pi: 3.14159
- xmas: true
- french-hens: 3
- calling-birds:
-   - huey
-   - dewey
-   - louie
+Find the header of the document file
+>head "file name"
+
+![Alt text](Images/Head.png)
+
 
 **18) tail command**
 
-gopinath@gopinath:~$ tail Sql.yml 
-   - louie
-   - fred
- xmas-fifth-day:
-   calling-birds: four
-   french-hens: 3
-   golden-rings: 5
-   partridges:
-     count: 1
-     location: "a pear tree"
-   turtle-doves: two
+Find the lower lins of the document files
+
+Command
+>tail "file name"
+
+![Alt text](Images/Tail.png)
 
 **19)diff command**
-gopinath@gopinath:~$ diff Sql.yml Postgras.yml 
-4c4
-<  pi: 3.14159
----
->  pi: 4.14159
-17c17
-<      count: 1
----
->      count: 2
+
+Differance between two documents command lines
+
+Commands
+>diff "file name1" "file name2"
+
+![Alt text](Images/diff.png)
+
 gopinath@gopinath:~$ cat Sql.yml 
 ---
- doe: "a deer, a female deer"
- ray: "a drop of golden sun"
- pi: 3.14159
- xmas: true
- french-hens: 3
- calling-birds:
-   - huey
-   - dewey
-   - louie
-   - fred
- xmas-fifth-day:
-   calling-birds: four
-   french-hens: 3
-   golden-rings: 5
-   partridges:
-     count: 1
-     location: "a pear tree"
-   turtle-doves: two
-gopinath@gopinath:~$ cat Postgras.yml 
----
- doe: "a deer, a female deer"
- ray: "a drop of golden sun"
- pi: 4.14159
- xmas: true
- french-hens: 3
- calling-birds:
-   - huey
-   - dewey
-   - louie
-   - fred
- xmas-fifth-day:
-   calling-birds: four
-   french-hens: 3
-   golden-rings: 5
-   partridges:
-     count: 2
-     location: "a pear tree"
-   turtle-doves: two
+Show the script lines in the document file
+
+Command
+>cat "file name"
+
+![Alt text](Images/cat.png)
+
+
 
 tar command
 
+archive the tar file single mount to the multiple files
 
-gopinath@gopinath:~$ tar -cvf project1.tar /home/gopinath/
-tar: Removing leading `/' from member names
-/home/gopinath/
-/home/gopinath/Unix_Command/
-/home/gopinath/Unix_Command/sqlite_commands.sh
-/home/gopinath/Downloads/
-/home/gopinath/.profile
-/home/gopinath/Document_Backup/
-/home/gopinath/Document_Backup/project_a.txt
-/home/gopinath/Document_Backup/project_c.txt
-/home/gopinath/Document_Backup/project_b.txt
-/home/gopinath/.local/
-/home/gopinath/.local/share/
-/home/gopinath/.local/share/gnome-settings-daemon/
-/home/gopinath/.local/share/gnome-settings-daemon/input-sources-converted
-/home/gopinath/.local/share/gvfs-metadata/
-/home/gopinath/.local/share/gvfs-metadata/trash:
-......
-....
-...
-.
+Command
+>tar -cvf "filename.tar" /directory file name
 
-/home/gopinath/.bash_logout
-/home/gopinath/Linux_command/
-/home/gopinath/Linux_command/sql.sh
-/home/gopinath/.sudo_as_admin_successful
-/home/gopinath/Public/
-tar: /home/gopinath/project1.tar: file is the archive; not dumped
-/home/gopinath/Templates/
-gopinath@gopinath:~$ ls
-Desktop          Downloads      Pictures      project_a          Sql.yml       Videos
-Document_Backup  Linux_command  Postgras.yml  Public             Templates
-Documents        Music          project1.tar  sqlite_command.sh  Unix_Command
+![Alt text](Images/tar.png)
+
+Extracting and showing inside the tar files
+
+Command
+>tar -xvf "filename.tar"
+
+![Alt text](Images/tar-ex.png)
 
 
 **21)chmod command**
 
-gopinath@gopinath:~$ ls -ltr
-total 126788
-drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Videos
-drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Templates
-drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Public
-drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Pictures
-drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Music
-drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Downloads
-drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Desktop
--rw-rw-r-- 1 gopinath gopinath        29 سبت  3 16:29 project_a
-drwxrwxr-x 2 gopinath gopinath      4096 سبت  3 16:40 Unix_Command
-drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 16:43 Documents
-drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 16:46 Document_Backup
-drwxrwxr-x 2 gopinath gopinath      4096 سبت  3 16:51 Linux_command
--rw-rw-r-- 1 gopinath gopinath         0 سبت  3 17:11 sqlite_command.sh
--rw-rw-r-- 1 gopinath gopinath       318 سبت  3 17:43 Sql.yml
--rw-rw-r-- 1 gopinath gopinath       318 سبت  3 18:09 Postgras.yml
--rw-rw-r-- 1 gopinath gopinath 129771520 سبت  3 18:12 project1.tar
-gopinath@gopinath:~$ chmod 777 Sql.yml Postgras.yml 
-gopinath@gopinath:~$ ls -ltr
-total 126788
-drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Videos
-drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Templates
-drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Public
-drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Pictures
-drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Music
-drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Downloads
-drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 15:44 Desktop
--rw-rw-r-- 1 gopinath gopinath        29 سبت  3 16:29 project_a
-drwxrwxr-x 2 gopinath gopinath      4096 سبت  3 16:40 Unix_Command
-drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 16:43 Documents
-drwxr-xr-x 2 gopinath gopinath      4096 سبت  3 16:46 Document_Backup
-drwxrwxr-x 2 gopinath gopinath      4096 سبت  3 16:51 Linux_command
--rw-rw-r-- 1 gopinath gopinath         0 سبت  3 17:11 sqlite_command.sh
--rwxrwxrwx 1 gopinath gopinath       318 سبت  3 17:43 Sql.yml
--rwxrwxrwx 1 gopinath gopinath       318 سبت  3 18:09 Postgras.yml
--rw-rw-r-- 1 gopinath gopinath 129771520 سبت  3 18:12 project1.tar
+File read and writh permission change
+
+Command
+>chmod 777 "file name"
+
+![Alt text](Images/chmod.png)
+
 
 **22)chown**
 
@@ -332,76 +243,25 @@ drwxrwxr-x 2 gopinath gopinath      4096 سبت  3 16:51 Linux_command
 
 
 
-**24)ps ux**
-gopinath@gopinath:~$ ps ux
-USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
-gopinath    4384  0.0  0.5  19740 10412 ?        Ss   20:47   0:00 /lib/systemd/
-gopinath    4385  0.0  0.1 169660  3580 ?        S    20:47   0:00 (sd-pam)
-gopinath    4390  0.1  0.9 1491592 20100 ?       S<sl 20:47   0:00 /usr/bin/puls
-gopinath    4394  0.0  0.3 248796  7808 ?        Sl   20:47   0:00 /usr/bin/gnom
-gopinath    4397  0.0  1.2 520004 24140 ?        SNsl 20:47   0:00 /usr/libexec/
-gopinath    4399  0.0  0.3  10316  7564 ?        Ss   20:47   0:00 /usr/bin/dbus
-gopinath    4403  0.0  0.3 248448  7800 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4408  0.0  0.4 382064  8432 ?        Sl   20:47   0:00 /usr/libexec/
-gopinath    4422  0.0  0.5 326076 11404 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4432  0.0  0.2 244512  6000 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4437  0.0  1.7 558232 34564 ?        Sl   20:47   0:00 /usr/libexec/
-gopinath    4440  0.0  0.3 172652  6664 tty2     Ssl+ 20:47   0:00 /usr/lib/gdm3
-gopinath    4442  0.7  3.8 269124 77152 tty2     Sl+  20:47   0:03 /usr/lib/xorg
-gopinath    4449  0.0  0.5 401044 11388 ?        Sl   20:47   0:00 /usr/libexec/
-gopinath    4451  0.0  0.3 246616  6856 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4458  0.0  0.3 244340  6280 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4465  0.0  0.4 325360  9004 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4487  0.0  0.7 199432 15248 tty2     Sl+  20:47   0:00 /usr/libexec/
-gopinath    4554  0.0  0.0   6040   452 ?        Ss   20:47   0:00 /usr/bin/ssh-
-gopinath    4573  0.0  0.4 383540  9592 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4579  0.0  0.2   7244  4260 ?        S    20:47   0:00 /usr/bin/dbus
-gopinath    4586  0.0  0.2  98696  4380 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4593  0.0  0.8 495104 17124 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4607  1.3 18.0 3722248 362656 ?      Ssl  20:47   0:06 /usr/bin/gnom
-gopinath    4626  0.0  0.5 323340 10324 ?        Sl   20:47   0:00 ibus-daemon -
-gopinath    4630  0.0  0.4 175192  8968 ?        Sl   20:47   0:00 /usr/libexec/
-gopinath    4631  0.1  1.6 286732 33396 ?        Sl   20:47   0:00 /usr/libexec/
-gopinath    4634  0.0  1.4 209048 30088 ?        Sl   20:47   0:00 /usr/libexec/
-gopinath    4636  0.0  0.4 248992  9384 ?        Sl   20:47   0:00 /usr/libexec/
-gopinath    4647  0.0  0.3 162908  6488 ?        Sl   20:47   0:00 /usr/libexec/
-gopinath    4651  0.0  0.2 244232  4808 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4656  0.0  1.0 581628 20220 ?        Sl   20:47   0:00 /usr/libexec/
-gopinath    4662  0.0  1.2 472808 25940 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4670  0.0  1.4 716368 29976 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4680  0.0  0.2 156100  5532 ?        Sl   20:47   0:00 /usr/libexec/
-gopinath    4684  0.0  1.4 690276 29120 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4703  0.0  0.5 326184 10660 ?        Sl   20:47   0:00 /usr/libexec/
-gopinath    4710  0.0  1.3 2607408 26448 ?       Sl   20:47   0:00 /usr/bin/gjs 
-gopinath    4722  0.0  0.4 322560  9132 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4723  0.0  1.5 578992 30968 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4724  0.0  0.8 382996 17208 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4725  0.0  0.4 322792  9200 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4726  0.0  1.5 356968 30460 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4727  0.0  1.6 912172 32864 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4728  0.0  1.5 357404 31060 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4729  0.0  0.5 256856 11232 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4730  0.0  0.2 465736  5952 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4731  0.0  0.2 244144  5844 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4732  0.0  0.6 477672 12380 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4733  0.0  0.5 326720 10628 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4734  0.0  0.5 330420 11144 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4735  0.0  0.4 396520  9364 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4736  0.0  1.4 356520 29800 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4737  0.0  0.5 326988 10340 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4738  0.0  1.5 357600 31240 ?        Ssl  20:47   0:00 /usr/libexec/
-gopinath    4767  0.0  0.2 231800  5532 ?        Sl   20:47   0:00 /usr/libexec/
-gopinath    4788  0.0  2.9 798384 59248 ?        Sl   20:47   0:00 /usr/libexec/
-gopinath    4817  0.0  0.7 350820 15048 ?        Sl   20:47   0:00 /usr/libexec/
-gopinath    4850  0.0  0.4 175184  8972 ?        Sl   20:47   0:00 /usr/libexec/
-gopinath    4919  0.0  0.3 170888  6252 ?        Ssl  20:48   0:00 /usr/libexec/
-gopinath    4922  0.0  1.6 505168 32940 ?        Sl   20:48   0:00 update-notifi
-gopinath    5059  0.4  2.5 823368 51420 ?        Ssl  20:51   0:01 /usr/libexec/
-gopinath    5067  0.0  0.2  19520  5088 pts/0    Ss   20:51   0:00 bash
-gopinath    5126  0.0  0.1  20132  3284 pts/0    R+   20:56   0:00 ps ux
+**24)KILL**
+Show all processing file with PID 
 
+Command
+>ps ux
+
+![Alt text](Images/psux.png)
+
+Command
+>KILL SIGKILL PID
+
+![Alt text](Images/Kill.png)
 
 25) ping command
+
+Ping used to find conectivity in the network devices
+
+Command
+>pind "IP Address"
 
 gopinath@gopinath:~$ ping 8.8.8.8
 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
