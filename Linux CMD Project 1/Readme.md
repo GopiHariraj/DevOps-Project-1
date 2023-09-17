@@ -263,116 +263,56 @@ Ping used to find conectivity in the network devices
 Command
 >pind "IP Address"
 
-gopinath@gopinath:~$ ping 8.8.8.8
-PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
-64 bytes from 8.8.8.8: icmp_seq=1 ttl=63 time=18.1 ms
-64 bytes from 8.8.8.8: icmp_seq=2 ttl=63 time=14.4 ms
-64 bytes from 8.8.8.8: icmp_seq=3 ttl=63 time=30.3 ms
-64 bytes from 8.8.8.8: icmp_seq=4 ttl=63 time=15.8 ms
+![Alt text](Images/Ping.png)
 
 **26) wget command**
 
-gopinath@gopinath:~$ wget www.google.com
---2023-09-03 21:05:57--  http://www.google.com/
-Resolving www.google.com (www.google.com)... 216.239.38.120, 2001:4860:4802:32::78
-Connecting to www.google.com (www.google.com)|216.239.38.120|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified [text/html]
-Saving to: ‘index.html’
+Command used to download file from link or directory
 
-index.html                             [ <=>                                                             ]  21.05K  --.-KB/s    in 0.01s   
+Command 
+>wget "linK url"
 
-2023-09-03 21:05:58 (1.99 MB/s) - ‘index.html’ saved [21558]
+![Alt text](Images/wget.png)
 
 **27)uname command**
 
-gopinath@gopinath:~$ uname -a
-Linux gopinath 5.15.0-82-generic #91~20.04.1-Ubuntu SMP Fri Aug 18 16:24:39 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
-gopinath@gopinath:~$ uname -s
-Linux
-gopinath@gopinath:~$ uname -n
-gopinath
+Find name of the operating system
+
+Command
+>uname -a
+
+![Alt text](Images/uname.png)
 
 **28)top command**
 
 gopinath@gopinath:~$ top
 
-top - 21:09:20 up 36 min,  1 user,  load average: 0.13, 0.34, 0.30
-Tasks: 178 total,   1 running, 176 sleeping,   1 stopped,   0 zombie
-%Cpu(s):  1.0 us,  0.3 sy,  0.0 ni, 98.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
-MiB Mem :   1964.1 total,    170.4 free,   1132.8 used,    660.9 buff/cache
-MiB Swap:   1162.4 total,   1159.7 free,      2.8 used.    633.6 avail Mem 
+Continuse system process 
 
-    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                              
-   4442 gopinath  20   0  341488 147144  89056 S   2.4   7.3   0:28.70 Xorg                                                                 
-   4607 gopinath  20   0 3740000 378932 145204 S   2.4  18.8   0:40.42 gnome-shell                                                          
-   5059 gopinath  20   0  824212  51924  38720 S   0.6   2.6   0:02.39 gnome-terminal-                                                      
-   5130 gopinath  20   0 3518232 362388 167152 S   0.6  18.0   0:33.60 firefox                                                              
-   5268 gopinath  20   0 2558192 188292  97144 S   0.6   9.4   0:16.59 Isolated Web Co                                                      
-   4382 root      20   0       0      0      0 I   0.3   0.0   0:02.47 kworker/0:3-events                                                   
-      1 root      20   0  168088  11084   8500 S   0.0   0.6   0:01.51 systemd                                                              
-      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd                                                             
-      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp                                                               
-      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par_gp                                                           
-      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 slub_flushwq                                                         
-      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns                                                                
-      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/0:0H-events_highpri                                          
-     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_percpu_wq                                                         
-     11 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tasks_rude_  
+Command 
+>top
+
+![Alt text](Images/top.png)
 
 **29)history**
 
-gopinath@gopinath:~$ history
-    1  sudo useradd
-    2  useradd Linuxuser1
-    3  sudo useradd Linuxuser1
-    4  passwd pass4321
-    5  passwd Linuxuser1 pass4321
-    6  useradd Linuxuser1
-    7  passwd
-    8  login Linuxuser1
-    9  Linuxuser1
-   10  ls
-   11  sudo passed Linuxuser1
-   12  sudo passwd Linuxuser1
-   13  whoami
-   14  sudo Linuxuser
-   15  sudo Linuxuser1
-   16  sudo su Linuxuser1
-   17  chown Project_a Linuxuser1
-   18  ls
-   19  sudo chown Project_a Linuxuser1
-   20  sudo chown Linuxuser1 Project_A
-   21  sudo chown Linuxuser1 Project_a
-   22  sudo chown Linuxuser1 \home\gopinath\Project_a
-   23  ls
-   24  clear
-   25  man chown
-   26  ls
-   27  chown Linuxuser1 sql.yml
-   28  chown gopinath sql.yml
-   29  chown gopinath /home/gopinth/sql.yml
-   30  sudo chown gopinath /home/gopinth/sql.yml
-   31  sudo chown Linuxuser1 /home/gopinth/sql.yml
-   32  ps ux
-   33  clear
-   34  jobs jobID
-   35  jobs jobid
-   36  ping 8.8.8.8
-   37  wget www.google.com
-   38  unname -a
-   39  uname -a
-   40  uname -s
-   41  uname -n
-   42  top
-   43  clear
-   44  history
+History of bash command
+
+Command
+>history
+
+![Alt text](Images/History.png)
+
+
 
 **30) man command**
+
+Manul of commands
 
 Syntax
 > man "command"
 
+![Alt text](Images/man.png)
 
 #gopinath@gopinath:~$ man chown
 
@@ -448,11 +388,10 @@ OPTIONS
 **31) echo**
 Echo the file name
 
-
 Command
->echo "project1"
-project1
+>echo "name"
 
+![Alt text](Images/echo.png)
 
 **32) unzip**
 
@@ -460,52 +399,55 @@ project1
 
 **33)hostname**
 
+Current host name will show
+
 Command
 > hostname
 
-gopinath@gopinath:~$ hostname
-gopinath
+![Alt text](Images/Host.png)
+
 
 **34)adduser deluser**
 
+Add a newuser in the system
+
 Command
+>sudo adduser "name"
 
->adduser "name"
+![Alt text](Images/adduser.png)
 
+Login to the user account
 
-gopinath@gopinath:~$ sudo useradd Linuxuser2
- 
-gopinath@gopinath:~$ sudo userdel Linuxuser1
-password update
-gopinath@gopinath:~$ sudo passwd Linuxuser2
-New password: 
-Retype new password: 
-passwd: password updated successfully
+Command
+> su "user account"
+
+![Alt text](Images/loginuser.png)
+
+Chang password of the user
+
+Command
+>passwd
+
+![Alt text](Images/chpasswd.png)
+
+Delete the user account
+
+Command
+>sudo deluser "user account"
+
+![Alt text](Images/Deluser.png)
+
 
 **35)apt-get** 
+Install application used to apt-get command
+
+Command
+>sudo apt-get install "name" -y
+
+![Alt text](Images/aptget.png)
 
 command
 > sudo apt-get install vlc
-
-
-#gopinath@gopinath:~$ sudo apt-get update -y
-Get:1 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
-Hit:2 http://ae.archive.ubuntu.com/ubuntu focal InRelease
-Get:3 http://ae.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
-Get:4 http://security.ubuntu.com/ubuntu focal-security/main amd64 DEP-11 Metadata [59.9 kB]
-Get:5 http://security.ubuntu.com/ubuntu focal-security/universe amd64 DEP-11 Metadata [96.5 kB]
-Get:6 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 DEP-11 Metadata [940 B]
-Get:7 http://ae.archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
-Get:8 http://ae.archive.ubuntu.com/ubuntu focal-updates/main amd64 DEP-11 Metadata [275 kB]
-Get:9 http://ae.archive.ubuntu.com/ubuntu focal-updates/universe amd64 DEP-11 Metadata [410 kB]
-Get:10 http://ae.archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 DEP-11 Metadata [944 B]
-Get:11 http://ae.archive.ubuntu.com/ubuntu focal-backports/main amd64 DEP-11 Metadata [8,008 B]
-Get:12 http://ae.archive.ubuntu.com/ubuntu focal-backports/universe amd64 DEP-11 Metadata [30.5 kB]
-Fetched 1,218 kB in 6s (216 kB/s)                                           
-Reading package lists... Done
-
-
-
 
 **36)Nano,v**
 
@@ -521,14 +463,16 @@ gopinath@gopinath:~$ cat secondfile2.sh
 test
 
 **37)alias,unalias** 
+Creating a shortcut key for the command
 
 command
-
 >alias r=clear
 
-
+![Alt text](Images/Alisa.png)
 
 **38) Su**
+
+Use to login to the user
 
  command
 > su "user name"
@@ -542,7 +486,7 @@ $ whoami
 Linuxuser2
 
 **39)htop**
-
+Task manger of running application
 
 A quick guide to the top command, used to list the
 processes running in real time
@@ -551,46 +495,7 @@ command
 > htop
 
 ![Alt text](Images/Htop.png)
-gopinath@gopinath:~$ htop
 
-Command 'htop' not found, but can be installed with:
-
-sudo snap install htop  # version 3.2.2, or
-sudo apt  install htop  # version 2.2.0-2build1
-
-See 'snap info htop' for additional versions.
-
-gopinath@gopinath:~$ sudo apt install htop
-[sudo] password for gopinath: 
-Reading package lists... Done
-Building dependency tree       
-Reading state information... Done
-The following packages were automatically installed and are no longer required:
-  chromium-codecs-ffmpeg-extra gstreamer1.0-vaapi
-  libgstreamer-plugins-bad1.0-0
-Use 'sudo apt autoremove' to remove them.
-The following NEW packages will be installed:
-  htop
-0 upgraded, 1 newly installed, 0 to remove and 299 not upgraded.
-Need to get 80.5 kB of archives.
-After this operation, 225 kB of additional disk space will be used.
-Get:1 http://ae.archive.ubuntu.com/ubuntu focal/main amd64 htop amd64 2.2.0-2build1 [80.5 kB]
-Fetched 80.5 kB in 1s (63.2 kB/s)
-Selecting previously unselected package htop.
-(Reading database ... 185703 files and directories currently installed.)
-Preparing to unpack .../htop_2.2.0-2build1_amd64.deb ...
-Unpacking htop (2.2.0-2build1) ...
-Setting up htop (2.2.0-2build1) ...
-Processing triggers for desktop-file-utils (0.24-1ubuntu3) ...
-Processing triggers for mime-support (3.64ubuntu1) ...
-Processing triggers for gnome-menus (3.36.0-1ubuntu1) ...
-Processing triggers for man-db (2.9.1-1) ...
-gopinath@gopinath:~$ htop
-
-
-
-
-[1]+  Stopped                 htop
 
 **40)ps command**
 
@@ -610,6 +515,3 @@ gopinath@gopinath:~$ ps
   12506 pts/0    00:00:00 htop
   12526 pts/0    00:00:00 ps
 
-
-
-commend is not execute
