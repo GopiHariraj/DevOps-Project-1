@@ -11,7 +11,8 @@ Git Installation: Ensure that Git is installed on your development environment. 
 
 **Step 1**
   Install Github for mac os
-  
+  ![alt file](Images/GitforMacos.png)
+
 **Step 2**
 **Step 3**
 **Step 4**
