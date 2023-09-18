@@ -31,7 +31,11 @@ Git Installation: Ensure that Git is installed on your development environment. 
   Control + ~ terminal 
   Run a command Git clone "git url link"
   packets will download on you local repository.
+
 **Step 5**
+
+  Use VScode tool Add, commit, push. scripts
+
 # GIT Working module
 
 
