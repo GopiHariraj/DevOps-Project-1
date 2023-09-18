@@ -10,6 +10,8 @@
 Git Installation: Ensure that Git is installed on your development environment. Git provides official downloads and installation instructions for various operating systems on its website (https://git-scm.com/).
 
 **Step 1**
+  Install Github for mac os
+  
 **Step 2**
 **Step 3**
 **Step 4**
