@@ -92,7 +92,6 @@ Git Installation: Ensure that Git is installed on your development environment. 
 
     > Git pull
 
-![alt file](Images/Push%20copy.png)
     
   # Branch
 
