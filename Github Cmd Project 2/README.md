@@ -32,18 +32,25 @@ Git Installation: Ensure that Git is installed on your development environment. 
 
   Create a GitHub account 
 
+  
   # Register a account
   
   ![alt file](Images/Git%20account.png)
+ 
+ 
  
   # Verify a email account
 
   ![alt file](Images/Verification.png)
 
+ 
+ 
   # Open a Githug account and create a new repository
 
   ![alt file](Images/Firstrepository.png)
 
+  
+  
   # Copy the Code of the repository 
 
    ![alt file](Images/copycopy.png)
