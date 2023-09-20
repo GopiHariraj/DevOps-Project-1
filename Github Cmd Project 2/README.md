@@ -79,7 +79,7 @@ Git Installation: Ensure that Git is installed on your development environment. 
 
     > Git push origin main
 
-![alt file](Images/Push.png)
+![alt file](Images/Push%20copy.png)
 
 
     > Git Status
@@ -92,7 +92,7 @@ Git Installation: Ensure that Git is installed on your development environment. 
 
     > Git pull
 
-![alt file](Images/Push.png)
+![alt file](Images/Push%20copy.png)
     
   # Branch
 
