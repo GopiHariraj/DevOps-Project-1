@@ -133,6 +133,15 @@ Name = Gitbranch1
  
 ![alt file](Images/create%20branch.png)
 
+**Checking a available**
+
+>Git Pull
+
+>Git branch -a
+
+>git cheakout "branch name"
+
+ ![alt file](Images/checkout.png)
 
 
   Use VScode tool Branching and Mer 
