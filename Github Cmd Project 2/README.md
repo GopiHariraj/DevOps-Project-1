@@ -65,7 +65,7 @@ Git Installation: Ensure that Git is installed on your development environment. 
   * Open a new folder
   * Open terminal (Shortcut Ctrl + ~ )
   * Run a command Git clone "git clone copy url link"
-  * packets will download to local repository.
+  * Packets will download to local repository.
 
 **Git commands**
   Use VScode tool Add, commit, push, Branch, Logs 
