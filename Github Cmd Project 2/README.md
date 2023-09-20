@@ -36,7 +36,7 @@ Git Installation: Ensure that Git is installed on your development environment. 
   
   ![alt file](Images/Git%20account.png)
  
-  Verify a emil account
+  Verify a email account
 
   ![alt file](Images/Verification.png)
 
