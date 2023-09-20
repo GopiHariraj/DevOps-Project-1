@@ -58,7 +58,7 @@ Git Installation: Ensure that Git is installed on your development environment. 
   
 **Step 4**
 
-  Run a VScode code 
+  # Run a VScode code 
 
   ![alt file](Images/VS.png)
 
