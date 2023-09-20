@@ -71,19 +71,20 @@ Git Installation: Ensure that Git is installed on your development environment. 
     
     > Git Add "File name"
 
- ![alt file](Images/Add.png)
+![alt file](Images/Add.png)
 
     > Git commit -m "Message"
 
- ![alt file](Images/Commit.png)
+![alt file](Images/Commit.png)
 
     > Git push origin main
 
- ![alt file](Images/Push.png)
+![alt file](Images/Push.png)
+
 
     > Git Status
 
- ![alt file](Images/Status.png)
+![alt file](Images/Status.png)
 
     > Git Log
 
@@ -113,3 +114,5 @@ Git Installation: Ensure that Git is installed on your development environment. 
 3) Hosting service of github repository
 4) Built in user management Future
 5) Free Tier and pay for use tier
+
+[def]: Images/Push.png
