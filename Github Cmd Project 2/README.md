@@ -110,7 +110,7 @@ Git Installation: Ensure that Git is installed on your development environment. 
 
 # GIT and GitHub Conclusion
                                  
-![alt file](Images/Git.png)                          
+![alt file](Images/git2.png)                          
 1) It is installed locally on the system 
 2) Git is manitain by Linux
 3) Git can manage source code entire History  
