@@ -91,6 +91,8 @@ Git Installation: Ensure that Git is installed on your development environment. 
 ![alt file](Images/Git%20Logs.png)
 
     > Git pull
+
+![alt file](Images/Push.png)
     
   # Branch
 
