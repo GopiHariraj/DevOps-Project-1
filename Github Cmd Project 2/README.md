@@ -18,7 +18,7 @@ Git Installation: Ensure that Git is installed on your development environment. 
 
   Install VScode
   
-  ![alt file](Images/vscode.png)
+  ![alt file](Images/app-icon.png)
 
   Download a VScode from below link
   https://code.visualstudio.com/download
@@ -44,7 +44,7 @@ Git Installation: Ensure that Git is installed on your development environment. 
 **Step 4**
 
   Run a VScode code 
-  
+
   Open a new folder
   Open terminal
   Control + ~ terminal 
