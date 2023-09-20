@@ -18,10 +18,14 @@ Git Installation: Ensure that Git is installed on your development environment. 
 
   Install VScode for macos 
 
+  Download a VScode from below link
+  https://code.visualstudio.com/download
+
 
 **Step 3**
 
   Create a GitHub account 
+
   
 **Step 4**
 
@@ -32,9 +36,8 @@ Git Installation: Ensure that Git is installed on your development environment. 
   Run a command Git clone "git url link"
   packets will download on you local repository.
 
-**Step 5**
-
-  Use VScode tool Add, commit, push. scripts
+**Git commands**
+  Use VScode tool Add, commit, push, Branch, Logs 
 
 # GIT Working module
 
