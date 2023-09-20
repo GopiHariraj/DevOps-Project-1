@@ -45,6 +45,8 @@ Git Installation: Ensure that Git is installed on your development environment. 
 
   Run a VScode code 
 
+  ![alt file](Images/VS.png)
+
   Open a new folder
   Open terminal
   Control + ~ terminal 
