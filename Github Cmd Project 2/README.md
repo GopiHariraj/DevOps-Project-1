@@ -139,9 +139,11 @@ Name = Gitbranch1
 
 ![alt file](Images/brach%20pull.png)
 
+To find a available branch
+
 >Git branch -a
 
-**Checkout to gitbranch1**
+**Checkout to other branch**
 
 >git cheakout "branch name"
 
