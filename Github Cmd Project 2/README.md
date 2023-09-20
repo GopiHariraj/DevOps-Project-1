@@ -16,20 +16,35 @@ Git Installation: Ensure that Git is installed on your development environment. 
 
 **Step 2**
 
-  Install VScode for macos 
+  Install VScode
+  
+  ![alt file](Images/vscode.png)
 
   Download a VScode from below link
   https://code.visualstudio.com/download
+
+  Find a operating system download a VScode tool
+  
+  ![alt file](Images/VS%20code.png)
 
 
 **Step 3**
 
   Create a GitHub account 
 
+  #Register a account
+  
+  ![alt file](Images/Git%20account.png)
+ 
+  Verify a emil account
+
+  ![alt file](Images/Verification.png)
+
   
 **Step 4**
 
   Run a VScode code 
+  
   Open a new folder
   Open terminal
   Control + ~ terminal 
