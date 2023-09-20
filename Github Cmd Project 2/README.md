@@ -98,6 +98,22 @@ Git Installation: Ensure that Git is installed on your development environment. 
     
   # Branches and Merging
 
+  Create new project local repositore Git-project
+
+  >cd Git-project
+  >git init
+![alt file](Images/Git%20init.png)
+
+  For connect to github remote repositore
+
+  Create new repositore in same name at Github
+
+  Once created follow below setp to like a remote repo
+
+  ![alt file](Images/same%20files.png)
+
+
+
   Use VScode tool Branching and Mer 
 
 # GIT Working module
