@@ -70,10 +70,25 @@ Git Installation: Ensure that Git is installed on your development environment. 
   # Git commands
     
     > Git Add "File name"
+
+    ![alt file](Images/Add.png)
+
     > Git commit -m "Message"
+
+    ![alt file](Images/Commit.png)
+
     > Git push origin main
+
+    ![alt file](Images/Push.png)
+
     > Git Status
+
+    ![alt file](Images/Status.png)
+
     > Git Log
+
+    ![alt file](Images/Git%20Logs.png)
+    
     > Git pull
     
   # Branch
