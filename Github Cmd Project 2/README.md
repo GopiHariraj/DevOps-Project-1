@@ -171,7 +171,7 @@ We see the different fill will not show in the main branch repository
 
 ![alt file](Images/merger%20push%20main.png)
 
-This file will available on local only we need pull to github
+This file will available on local only we need push to github
 
 >git push origin main
 
