@@ -133,18 +133,47 @@ Name = Gitbranch1
  
 ![alt file](Images/create%20branch.png)
 
-**Checking a available**
+**Checking a available branch in local repository**
 
 >Git Pull
 
+![alt file](Images/brach%20pull.png)
+
 >Git branch -a
+
+**Checkout to gitbranch1**
 
 >git cheakout "branch name"
 
- ![alt file](Images/checkout.png)
+![alt file](Images/checkout.png)
 
+Creat new file in gitbranch1
 
-  Use VScode tool Branching and Mer 
+![alt file](Images/Gitbranch%201.png)
+
+**Checkout to main**
+
+![alt file](Images/main%20branch.png)
+
+We see the different fill will not show in the main branch repository
+
+**Find a differance between main branch and gitbranch1**
+
+>git diff
+
+![alt file](Images/git%20diff.png)
+
+# Merge
+
+**Now gitbranc1 file push the file to main branch**
+
+![alt file](Images/merger%20push%20main.png)
+
+this file will available on local only we need pull to github
+
+>git push origin main
+
+![alt file](Images/merger%20push%20main.png)
 
 # GIT Working module
 
