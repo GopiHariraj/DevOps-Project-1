@@ -108,7 +108,7 @@ Git Installation: Ensure that Git is installed on your development environment. 
 
 **Backup and Recovery:** Implement regular backup and recovery procedures for your Git repositories. This ensures that you can recover your code in case of accidental data loss or corruption.
 
-# GIT and GitHub Conculution
+# GIT and GitHub Conclution
                                  
 ![alt file](Images/Git.png)                          
 1) It is installed locally on the system 
