@@ -65,6 +65,8 @@ Git Installation: Ensure that Git is installed on your development environment. 
   * Open a new folder
   * Open terminal (Shortcut Ctrl + ~ )
   * Run a command Git clone "git clone copy url link"
+  * System will verify github login popup
+
   * Packets will download to local repository.
 
   # Git commands
