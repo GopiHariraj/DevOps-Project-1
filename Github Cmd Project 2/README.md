@@ -68,14 +68,14 @@ Git Installation: Ensure that Git is installed on your development environment. 
 
 # GIT and GitHub Concultion
                                  
-              Git                           
+![alt file](Images/Git.png)                          
 1) It is installed locally on the system 
 2) Git is manitain by Linux
 3) Git can manage source code entire History  
 4) NO managment futures                 
 5) Open Source LIcense 
 
-|            GitHub
+![alt file](Images/Github.png)
 1) GitHub is the service hosted on the web Exclusivly CLoud Based
 2) Github is own by Microsoft
 3) Hosting service of github repository
