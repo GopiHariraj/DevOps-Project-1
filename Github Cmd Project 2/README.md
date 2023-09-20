@@ -116,14 +116,14 @@ Git Installation: Ensure that Git is installed on your development environment. 
 1) It is installed locally on the system 
 2) Git is manitain by Linux
 3) Git can manage source code entire History  
-4) NO managment futures                 
+4) NO managment feature                 
 5) Open Source LIcense 
 
 ![alt file](Images/Github.png)
 1) GitHub is the service hosted on the web Exclusivly CLoud Based
 2) Github is own by Microsoft
 3) Hosting service of github repository
-4) Built in user management Future
+4) Built in user management Feature
 5) Free Tier and pay for use tier
 
 [def]: Images/Push.png
