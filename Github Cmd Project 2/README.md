@@ -99,25 +99,39 @@ Git Installation: Ensure that Git is installed on your development environment. 
     
  # Branches and Merging
 
-  Create new project local repositore Git-project
+**Create new project local repositore Git-project**
 
  >cd Git-project
   
  >git init
   
+Creat a two local fils commit it
    ![alt file](Images/Git%20init.png)
 
-For connect to github remote repositore
+**local repo file connect to github remote repositore**
 
 Create new repositore in same name at Github
 
 
-Once created follow below setp to like a remote repo
+Once created github repo follow below setup to like a local repo
 
-  ![alt file](Images/steps.png)
+![alt file](Images/steps.png)
 
+>git remote add https://https://github.com/GopiHariraj/Git-project.git
 
+![alt file](Images/Screenshot%202023-09-20%20at%204.34.51%20PM.png)
 
+ Fils are update in the github repository
+
+![alt file](Images/update.png)
+
+# Branch
+
+Create a branch in the repository
+
+Name = Gitbranch1
+ 
+![alt file](Images/create%20branch.png)
 
 
 
