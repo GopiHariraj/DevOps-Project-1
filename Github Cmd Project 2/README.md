@@ -74,6 +74,9 @@ Git Installation: Ensure that Git is installed on your development environment. 
     > Git push origin main
     > Git Status
     > Git Log
+    > Git pull
+    
+  # Branch
 
   Use VScode tool Add, commit, push, Branch, Logs 
 
