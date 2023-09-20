@@ -40,6 +40,14 @@ Git Installation: Ensure that Git is installed on your development environment. 
 
   ![alt file](Images/Verification.png)
 
+  Open a Githug account and create a new repository
+
+  ![alt file](Images/Firstrepository.png)
+
+  Copy the Code of the repository 
+
+   ![alt file](Images/copycopy.png)
+
   
 **Step 4**
 
@@ -47,11 +55,11 @@ Git Installation: Ensure that Git is installed on your development environment. 
 
   ![alt file](Images/VS.png)
 
-  Open a new folder
-  Open terminal
-  Control + ~ terminal 
-  Run a command Git clone "git url link"
-  packets will download on you local repository.
+  * Open a new folder
+  * Open terminal
+  * Control + ~ terminal 
+  * Run a command Git clone "git url link"
+  * packets will download on you local repository.
 
 **Git commands**
   Use VScode tool Add, commit, push, Branch, Logs 
