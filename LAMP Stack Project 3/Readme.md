@@ -24,6 +24,12 @@ Login to the AWS account and select EC2 service
 3) testing perpose make sure Free tier eligible
 
 ![alt file](Images/EC2.png)
+
+1) Key pair recommed to connecta EC2 instant secure
+2) Network setting use to create default vpc snd subnet
+3) fireall alloew ssh anf HTTP
+
+![alt file](Images/Lanunch.png)
 **Install NGINX server**
 
 **Install MYSQL**
