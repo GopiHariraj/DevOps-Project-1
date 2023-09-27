@@ -61,7 +61,54 @@ copy that ip connect to the instance with termius tool.
 Then select the host, right click and connect to the server system
 
 
-**Install NGINX server**
+# Install NGINX server
+
+Introduction:-
+
+Server terminal is launched successfully
+
+![alt file](Images/Server%20update.png)
+
+Step 1) We need update server first
+
+> sudo apt update -y
+
+-y flag it to proceed update a syatem
+
+step 2) Install a Nginx software
+
+> sudo apt install Nginx
+
+![alt file](Images/nginx.png)
+
+Step 3) Request Nginx on Port 80
+
+>curl http://127.0.0.1)
+
+![alt file](Images/curl%20n.png)
+
+Before testing a nginx web page we need to enable a inbound rule port 80 should be add
+
+![alt file](Images/Inbound%20rule.png)
+
+1) Select an EC2 instance
+2) got to security option
+3) select scurity id (E.g s9-0c59dd51d333ec66 - launch-wizard-1)
+4) edit and add rule
+5) save rules
+
+Test a site copied public ip past in web browser. it will launch our nginx server 
+
+![alt file](Images/Website%20n.png)
+
+Nginx server default index location is 
+
+if we change a index it will reflect on web browser
+
+
+
+
+
 
 **Install MYSQL**
 
