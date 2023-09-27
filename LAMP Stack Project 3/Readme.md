@@ -105,6 +105,95 @@ Nginx server default index location is
 
 if we change a index it will reflect on web browser
 
+# Install an Apache server
+
+After AWS server launch
+
+Step 1)
+Update a server system
+
+ >sudo apt update -y
+
+Step 2)
+Install an apache server
+
+ >sudo apt install apache2 
+
+![alt file](Images/apache%20instal.png)
+
+sept 3)
+
+>curl://127.0.0.1:80)
+ 
+Step 4)
+
+Before testing a nginx web page we need to enable a inbound rule port 80 should be add
+
+![alt file](Images/Inbound%20rule.png)
+
+1) Select an EC2 instance
+2) got to security option
+3) select scurity id (E.g s9-0c59dd51d333ec66 - launch-wizard-1)
+4) edit and add rule
+5) save rules
+
+
+Test a site copied public ip past in web browser. it will launch our Apache server 
+
+![alt file](Images/apache%20we.png)
+
+Apach server default index location at /var/www/html/index.html)
+
+**apahe server how to change a index? reflect in web browser**
+
+Step 1)
+
+Remove the index file from default location
+
+> cd /var/www/html/
+> Sudo rm Index.html
+
+Step 2)
+
+Create a new index.html file in that loaction
+
+> sudo touch index.html
+
+Step 3) 
+
+edit a file with VI cmd
+
+> sudo vi index.html
+
+![alt file](Images/rm.png)
+
+Step 4)
+
+press "i" insert option will enable
+
+Write a script in the index document
+
+![alt file](Images/Screenshot%202023-09-26%20at%209.57.37%20PM.png)
+
+Step 5)
+
+Press "esc"
+
+type: :wq!
+
+Press "enter"
+
+File will wright and save.
+
+Now open a same ip address it new index file will reflect on browser
+
+![alt file](Images/Screenshot%202023-09-26%20at%209.57.08%20PM.png)
+
+
+
+
+
+
 
 
 
