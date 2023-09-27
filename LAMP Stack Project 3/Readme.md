@@ -83,7 +83,7 @@ step 2) Install a Nginx software
 
 Step 3) Request Nginx on Port 80
 
->curl http://127.0.0.1)
+>curl http://127.0.0.1:80)
 
 ![alt file](Images/curl%20n.png)
 
