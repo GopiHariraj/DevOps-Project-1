@@ -25,6 +25,8 @@ Login to the AWS account and select EC2 service
 
 ![alt file](Images/EC2.png)
 
+Recommed to create new key pair 
+
 ![alt file](Images/KEY.png)
 
 
@@ -56,7 +58,7 @@ copy that ip connect to the instance with termius tool.
 
 ![alt file](Images/Screenshot%202023-09-26%20at%209.38.48%20PM.png)
 
-Then right click and connect to the server system
+Then select the host, right click and connect to the server system
 
 
 **Install NGINX server**
