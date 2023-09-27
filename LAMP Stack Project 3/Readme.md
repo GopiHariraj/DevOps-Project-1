@@ -36,4 +36,4 @@ Login to the AWS account and select EC2 service
 
 **Install PHP**
 
-**Host a website**
+**Host a website with git**
