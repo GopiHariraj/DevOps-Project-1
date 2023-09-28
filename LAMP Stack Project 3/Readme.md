@@ -33,18 +33,20 @@ Recommed to create new key pair
 
 1) Key pair recommed to connecta EC2 instant secure
 2) Network setting use to create default vpc snd subnet
-3) fireall alloew ssh anf HTTP
+3) firewall allow ssh and HTTP
 
 ![alt file](Images/Lanunch.png)
 
 
+Below Screen we confirm Instance successfully run
 
 ![alt file](Images/END.png)
 
 
+In EC2 instant we can find server ip, to select a instance ip detail will be show on down.
+
 ![alt file](Images/Serverip.png)
 
-In ec 2 instant we can find server ip, to select a instance ip detail will be show on down.
 
 copy that ip connect to the instance with termius tool.
 
