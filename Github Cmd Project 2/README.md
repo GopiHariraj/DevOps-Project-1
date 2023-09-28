@@ -230,7 +230,7 @@ Step 2
 
 1) In repository setting option select a page
 2) Branch option change to main
-3) Save the changes
+3) Save the changes 
 4) Refreash the page site link will appear on top of the page
 
 Click the link the page will open
