@@ -102,20 +102,8 @@ Install an apache server
 
 sept 3)
 
->curl://127.0.0.1:80)
+>curl:http//127.0.0.1:80)
  
-Step 4)
-
-Before testing a nginx web page we need to enable a inbound rule port 80 should be add
-
-![alt file](Images/Inbound%20rule.png)
-
-1) Select an EC2 instance
-2) got to security option
-3) select scurity id (E.g s9-0c59dd51d333ec66 - launch-wizard-1)
-4) edit and add rule
-5) save rules
-
 
 Test a site copied public ip past in web browser. it will launch our Apache server 
 
