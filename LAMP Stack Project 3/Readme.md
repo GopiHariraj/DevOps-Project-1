@@ -251,7 +251,15 @@ To install these 3 packages at once, run:
 
 >sudo apt install php libapache2-mod-php php-mysql
 
+![alt file](Images/int-php.png)
+
 >php -v
+
+output:-
+PHP 7.4.3 (cli) (built: Oct  6 2020 15:47:56) ( NTS )
+Copyright (c) The PHP Group
+Zend Engine v3.4.0, Copyright (c) Zend Technologies
+
 
 **Enable PHP on the website**
 
@@ -270,13 +278,26 @@ Reloade system apache
 
 >sudo systemctl reload apache2
 
+![alt file](Images/config.png)
+
+Creat index.php file
+
+>cd /var/www/html
+
+>sudo rm index.html
+
+>sudo touch index.php
+
+>sudo vi index.php
+
+copy the below  script in the document
+
+<?php
+phpinfo();
 
 
-
-
-
-
-
-**Host a website with git**
 
 Project Reference: https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04#step-3-%E2%80%94-installing-php
+
+
+# Host a website with git
