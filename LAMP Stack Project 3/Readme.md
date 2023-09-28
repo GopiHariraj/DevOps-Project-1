@@ -38,7 +38,7 @@ Recommed to create new key pair
 ![alt file](Images/Lanunch.png)
 
 
-Below Screen we confirm Instance successfully run
+Below Screen we can confirm Instance successfully run
 
 ![alt file](Images/END.png)
 
@@ -60,14 +60,14 @@ Conect to the EC2 Instance
 
 ![alt file](Images/termius%20server.png)
 
-1) click a new host option
-2) select an edit tool
+1) Click a new host option
+2) Select an edit tool
 3) In the right-sidebar configure a server name(lable),ip address,add a KEY which we download from AWS.
-4) add a KEY which we download from AWS.
+4) Add a KEY which we download from AWS.
 
 ![alt file](Images/Screenshot%202023-09-26%20at%209.38.48%20PM.png)
 
-Then select the host, right click and connect to the server system
+Then select the host. Right click and connect to the server system
 
 
 # Install NGINX server
@@ -78,7 +78,7 @@ Server terminal is launched successfully
 
 ![alt file](Images/Server%20update.png)
 
-Step 1) We need update server first
+Step 1) We need to update server first
 
 > sudo apt update -y
 
