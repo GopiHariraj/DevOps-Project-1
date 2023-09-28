@@ -2,14 +2,14 @@
 
 # Introduction
 
-LAMP (Linux, Apache, MySQL, PHP or Python, or Perl)
-LEMP (Linux, Nginx, MySQL, PHP or Python, or Perl)
-MERN (MongoDB, ExpressJS, React JS, NodeJS)
-MEAN (MongoDB, ExpressJS, Angular JS, NodeJS
+1) LAMP (Linux, Apache, MySQL, PHP or Python, or Perl)
+2) LEMP (Linux, Nginx, MySQL, PHP or Python, or Perl)
+3) MERN (MongoDB, ExpressJS, React JS, NodeJS)
+4) MEAN (MongoDB, ExpressJS, Angular JS, NodeJS
 # Requirments
-  1) AWS
-  2) nginx
-  3) mysql
+  1) AWS EC2 Instance
+  2) nginx secver
+  3) mysql database
   4) php
 
 # Web stack Implementatoin
