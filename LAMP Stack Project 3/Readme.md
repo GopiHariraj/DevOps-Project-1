@@ -84,7 +84,7 @@ Then select the host. Right click and connect to the server system
 # Install an Apache server
 
 **Indroduction**
-Apache HTTP Server, commonly referred to as Apache, is one of the most widely used open-source web servers in the world. It is a powerful and flexible software that serves web content over the internet. Here's an introduction to Apache HTTP Serve
+Apache HTTP Server, commonly referred to as Apache, is one of the most widely used open-source web servers in the world. It is a powerful and flexible software that serves web content over the internet.
 
 After AWS server launch
 
