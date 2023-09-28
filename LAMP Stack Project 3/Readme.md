@@ -49,6 +49,12 @@ copy that ip connect to the instance with termius tool.
 
 **Termius server lanch**
 
+Open a Termius application 
+
+![alt file](Images/termius-logo.png)
+
+Conect to the EC2 Instance
+
 ![alt file](Images/termius%20server.png)
 
 1) click a new host option
@@ -329,4 +335,5 @@ Step 2
 
 Click the link the page will open
 
+![alt file](Images/gitweb.png)
 
