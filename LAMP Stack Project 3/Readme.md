@@ -191,8 +191,53 @@ Now open a same ip address it new index file will reflect on browser
 
 
 
-# Install MYSQl
+# Install MYSQL
 
+**Introduction**
+
+Step 1)
+
+>sudo apt-install mysql-server
+
+Step 2)
+
+Connect to Mysql administative root database
+
+>suso mysql
+
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 11
+Server version: 8.0.22-0ubuntu0.20.04.3 (Ubuntu)
+
+Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> 
+
+
+mysql>ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';
+mysql>exit
+
+Step 3)
+
+start a interactive script
+
+>sudo mysql_secure_installation
+
+![alt file](Images/mysql-comm.png)
+
+
+
+Enter the valid password: 'PassWord.1'
+
+![alt file](Images/secure.png)
+
+****database image add**
 
 
 
