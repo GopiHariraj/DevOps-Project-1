@@ -246,7 +246,7 @@ Enter the valid password: 'PassWord.1'
 
 ![alt file](Images/secure.png)
 
-After given yse to all
+After given yes to all
 
 ![alt file](Images/Screenshot%202023-09-27%20at%202.10.55%20PM.png)
 
@@ -331,10 +331,10 @@ Step 2
 ![alt file](Images/git-page.png)
 
 
-1) In setting option select a page
-2) Branch option change to none to main
-3) save it
-4) refreash the page site link on top of the page
+1) In repository setting option select a page
+2) Branch option change to main
+3) Save the changes
+4) Refreash the page site link will appear on top of the page
 
 Click the link the page will open
 
