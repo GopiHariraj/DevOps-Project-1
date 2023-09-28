@@ -15,6 +15,7 @@
 # Web stack Implementatoin
 
 **Create a AWS Instance**
+
 Login to the AWS account and select EC2 service
 
 ![alt file](Images/Config%20EC1.png)
