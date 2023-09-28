@@ -216,3 +216,23 @@ Github Branch
 5) Free Tier and pay for use tier
 
 [def]: Images/Push.png
+
+# Host a website with git
+
+Step 1 
+
+Create new repository and add index.html file
+
+Step 2
+
+![alt file](Images/git-page.png)
+
+
+1) In repository setting option select a page
+2) Branch option change to main
+3) Save the changes
+4) Refreash the page site link will appear on top of the page
+
+Click the link the page will open
+
+![alt file](Images/gitweb.png)
