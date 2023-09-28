@@ -292,9 +292,6 @@ Creat index.php file
 
 copy the below  script in the document
 
-<?php
-phpinfo();
-
 Project Reference: https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04#step-3-%E2%80%94-installing-php
 
 
