@@ -8,7 +8,7 @@
 4) MEAN (MongoDB, ExpressJS, Angular JS, NodeJS
 # Requirments for LAMP Project
   1) AWS EC2 Instance
-  2) nginx secver
+  2) apache secver
   3) mysql database
   4) php
 
@@ -72,35 +72,7 @@ Conect to the EC2 Instance
 
 Then select the host. Right click and connect to the server system
 
-
-# Install NGINX server
-
-Introduction:-
-Nginx (pronounced "engine-x") is a highly popular open-source web server, reverse proxy server, load balancer, and HTTP cache. It is known for its high performance, scalability, and reliability, making it a popular choice for serving web content, managing application traffic, and improving the performance and security of web applications
-
-Server terminal is launched successfully
-
-![alt file](Images/Server%20update.png)
-
-Step 1) We need to update server first
-
-> sudo apt update -y
-
--y flag it to proceed update a syatem
-
-step 2) Install a Nginx software
-
-> sudo apt install Nginx
-
-![alt file](Images/nginx.png)
-
-Step 3) Request Nginx on Port 80
-
->curl http://127.0.0.1:80)
-
-![alt file](Images/curl%20n.png)
-
-Before testing a nginx web page we need to enable a inbound rule port 80 should be add
+**Adding a inbound rule**
 
 ![alt file](Images/Inbound%20rule.png)
 
