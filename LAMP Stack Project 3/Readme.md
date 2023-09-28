@@ -20,9 +20,9 @@ Login to the AWS account and select EC2 service
 
 ![alt file](Images/Config%20EC1.png)
 
-1) Tag ame of the server
+1) Tag name of the server
 2) select server (AMI) Exampl: Ubuntu,Amazon linux
-3) testing perpose make sure Free tier eligible
+3) Testing perpose make sure Free tier eligible
 
 ![alt file](Images/EC2.png)
 
