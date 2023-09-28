@@ -1,12 +1,12 @@
                                 LAMP Project                    
 
-# Introduction
+# Types of web Sever Implementation
 
 1) LAMP (Linux, Apache, MySQL, PHP or Python, or Perl)
 2) LEMP (Linux, Nginx, MySQL, PHP or Python, or Perl)
 3) MERN (MongoDB, ExpressJS, React JS, NodeJS)
 4) MEAN (MongoDB, ExpressJS, Angular JS, NodeJS
-# Requirments
+# Requirments for LAMP Project
   1) AWS EC2 Instance
   2) nginx secver
   3) mysql database
