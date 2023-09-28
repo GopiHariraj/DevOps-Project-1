@@ -45,11 +45,20 @@ Below Screen we can confirm Instance successfully run
 
 ![alt file](Images/END.png)
 
+**Adding a inbound rule**
+
+![alt file](Images/Inbound%20rule.png)
+
+1) Select an EC2 instance
+2) Go to security option
+3) Select scurity id (E.g s9-0c59dd51d333ec66 - launch-wizard-1)
+4) Edit and add rule
+5) Save rules
+
 
 In EC2 instant we can find server ip, to select a instance ip detail will be show on down.
 
 ![alt file](Images/Serverip.png)
-
 
 copy that ip connect to the instance with termius tool.
 
@@ -59,7 +68,7 @@ Open a Termius application
 
 ![alt file](Images/termius-logo.png)
 
-Conect to the EC2 Instance
+Connect to the EC2 Instance
 
 ![alt file](Images/termius%20server.png)
 
@@ -71,24 +80,6 @@ Conect to the EC2 Instance
 ![alt file](Images/Screenshot%202023-09-26%20at%209.38.48%20PM.png)
 
 Then select the host. Right click and connect to the server system
-
-**Adding a inbound rule**
-
-![alt file](Images/Inbound%20rule.png)
-
-1) Select an EC2 instance
-2) Go to security option
-3) Select scurity id (E.g s9-0c59dd51d333ec66 - launch-wizard-1)
-4) Edit and add rule
-5) Save rules
-
-Test a site copied public ip past in web browser. it will launch our nginx server 
-
-![alt file](Images/Website%20n.png)
-
-Nginx server default index location is 
-
-if we change a index it will reflect on web browser
 
 # Install an Apache server
 
