@@ -317,29 +317,10 @@ To save and close the file, simply follow the steps below:
 
 PHP website
 
-![alt file](Images/web-PHP.png)
+![alt file](Images/web-PHP.png) 
 
 
 Project Reference: https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04#step-3-%E2%80%94-installing-php
 
-
-# Host a website with git
-
-Step 1 
-
-Create new repository and add index.html file
-
-Step 2
-
-![alt file](Images/git-page.png)
-
-
-1) In repository setting option select a page
-2) Branch option change to main
-3) Save the changes
-4) Refreash the page site link will appear on top of the page
-
-Click the link the page will open
-
-![alt file](Images/gitweb.png)
+ok
 
