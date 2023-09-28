@@ -312,3 +312,21 @@ Project Reference: https://www.digitalocean.com/community/tutorials/how-to-insta
 
 
 # Host a website with git
+
+Step 1 
+
+Create new repository and add index.html file
+
+Step 2
+
+![alt file](Images/git-page.png)
+
+
+1) In setting option select a page
+2) Branch option change to none to main
+3) save it
+4) refreash the page site link on top of the page
+
+Click the link the page will open
+
+
