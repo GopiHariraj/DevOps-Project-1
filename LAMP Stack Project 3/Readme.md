@@ -290,7 +290,23 @@ Creat index.php file
 
 >sudo vi index.php
 
-copy the below  script in the document
+copy the pdp script on index.php
+
+{<?php
+phpinfo();
+}
+
+To save and close the file, simply follow the steps below:
+1. Hit the esc button on the keyboard
+2. Type:
+3. Type wq .wfor write andqfor quit
+4. Hit ENTER to save the file
+![alt file](Images/php.png)
+
+PHP website
+
+![alt file](Images/web-PHP.png)
+
 
 Project Reference: https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04#step-3-%E2%80%94-installing-php
 
