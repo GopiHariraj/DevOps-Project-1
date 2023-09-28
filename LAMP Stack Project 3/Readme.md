@@ -237,7 +237,38 @@ Enter the valid password: 'PassWord.1'
 
 ![alt file](Images/secure.png)
 
-****database image add**
+After given yse to all
+
+![alt file](Images/Screenshot%202023-09-27%20at%202.10.55%20PM.png)
+
+Mysql Data base installation is completed
+
+# Install PHP
+
+You have Apache installed to serve your content and MySQL installed to store and manage your data. PH is the component of our setup that will process code to display dynamic content to the end user. In addition to the php package, you'll need php-mysql, a PHP module that allows PH to communicate with MySQL-based databases. You'll also need libapache2-mod-php to enable
+Apache to handle PHP files. Core PHP packages will automatically be installed as dependencies.
+To install these 3 packages at once, run:
+
+>sudo apt install php libapache2-mod-php php-mysql
+
+>php -v
+
+**Enable PHP on the website**
+
+>sudo vim /etc/apache2/mods-enabled/dir.conf
+
+To verify a script in the dir.conf file
+
+<IfModule mod_dir.c>
+        #Change this:
+        #DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm
+        #To this:
+        DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
+</IfModule>
+
+Reloade system apache
+
+>sudo systemctl reload apache2
 
 
 
@@ -245,10 +276,7 @@ Enter the valid password: 'PassWord.1'
 
 
 
-
-
-**Install MYSQL**
-
-**Install PHP**
 
 **Host a website with git**
+
+Project Reference: https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04#step-3-%E2%80%94-installing-php
