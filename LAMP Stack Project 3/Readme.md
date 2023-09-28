@@ -101,10 +101,10 @@ Before testing a nginx web page we need to enable a inbound rule port 80 should 
 ![alt file](Images/Inbound%20rule.png)
 
 1) Select an EC2 instance
-2) got to security option
-3) select scurity id (E.g s9-0c59dd51d333ec66 - launch-wizard-1)
-4) edit and add rule
-5) save rules
+2) Go to security option
+3) Select scurity id (E.g s9-0c59dd51d333ec66 - launch-wizard-1)
+4) Edit and add rule
+5) Save rules
 
 Test a site copied public ip past in web browser. it will launch our nginx server 
 
