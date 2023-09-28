@@ -37,6 +37,9 @@ Recommed to create new key pair
 
 ![alt file](Images/Lanunch.png)
 
+1) Configure storage 
+2) Find a Summery of the EC2 instance specification.
+3) launch an instance
 
 Below Screen we can confirm Instance successfully run
 
