@@ -191,6 +191,9 @@ Now open a same ip address it new index file will reflect on browser
 
 
 
+# Install MYSQl
+
+
 
 
 
