@@ -76,6 +76,7 @@ Then select the host. Right click and connect to the server system
 # Install NGINX server
 
 Introduction:-
+Nginx (pronounced "engine-x") is a highly popular open-source web server, reverse proxy server, load balancer, and HTTP cache. It is known for its high performance, scalability, and reliability, making it a popular choice for serving web content, managing application traffic, and improving the performance and security of web applications
 
 Server terminal is launched successfully
 
@@ -118,6 +119,9 @@ Nginx server default index location is
 if we change a index it will reflect on web browser
 
 # Install an Apache server
+
+**Indroduction**
+Apache HTTP Server, commonly referred to as Apache, is one of the most widely used open-source web servers in the world. It is a powerful and flexible software that serves web content over the internet. Here's an introduction to Apache HTTP Serve
 
 After AWS server launch
 
