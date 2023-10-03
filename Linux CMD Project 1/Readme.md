@@ -449,7 +449,7 @@ Command
 command
 > sudo apt-get install vlc
 
-**36)Nano,v**
+**36)Nano,vi**
 
  command
 >vi "file name.sh"
@@ -485,7 +485,7 @@ gopinath@gopinath:~$ sudo su Linuxuser2
 $ whoami
 Linuxuser2
 
-**39)htop**
+**39) htop**
 Task manger of running application
 
 A quick guide to the top command, used to list the
@@ -497,7 +497,7 @@ command
 ![Alt text](Images/Htop.png)
 
 
-**40)ps command**
+**40) ps command**
 
 This is the list of user-initiated processes currently
 running in the current session.
@@ -515,3 +515,18 @@ gopinath@gopinath:~$ ps
   12506 pts/0    00:00:00 htop
   12526 pts/0    00:00:00 ps
 
+**41) Chomd Command**
+ugo
+u - users
+g - group
+o - others
+rwx
+r - read - 4
+w - write - 2
+XI - execute - 1
+r-x, rw-, r- - server. sh
+
+>chmod 400 "file name"
+
+
+>chmod 777 "file name"
