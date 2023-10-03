@@ -530,3 +530,5 @@ r-x, rw-, r- - server. sh
 
 
 >chmod 777 "file name"
+
+>chmod u+x "file name"
