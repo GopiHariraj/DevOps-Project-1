@@ -532,3 +532,25 @@ r-x, rw-, r- - server. sh
 >chmod 777 "file name"
 
 >chmod u+x "file name"
+
+**42) Location of hostname**
+
+>sudo vi /etc/hostname
+>sudo reboot now
+
+
+Hostname will change
+
+**43) tree command**
+
+>sudo apt install tree
+
+**44) Sudoers**
+
+>sudo vi /etc/sudoers
+
+edit username All=All:ALL) All
+
+Shortcuts type "dd" line will delete
+
+sshd config 
